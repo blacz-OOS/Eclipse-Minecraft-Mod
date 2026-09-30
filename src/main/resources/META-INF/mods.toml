@@ -1,0 +1,42 @@
+# Metadados do mod Eclipse. Formato TOML v0.5.0.
+# https://mcforge.readthedocs.io/en/1.16.x/gettingstarted/structuring/#mods.toml
+
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory - range de versao do Forge (1.16.5 usa a serie 36.x)
+license="All rights reserved"
+#issueTrackerURL="" #optional - preencher se/quando o projeto for publicado
+
+[[mods]] #mandatory
+modId="eclipse" #mandatory
+version="${file.jarVersion}" #mandatory - populado automaticamente pelo build.gradle
+displayName="Eclipse" #mandatory
+#updateJSONURL="" #optional
+#displayURL="" #optional
+#logoFile="logo.png" #optional - nao ha logo no projeto ainda; adicione o arquivo em
+                      # src/main/resources/ e descomente esta linha quando existir
+credits="" #optional
+authors="SoldierSkull" #optional - ajuste para o(s) nome(s) real(is) do(s) autor(es)
+description='''
+Eclipse e um mod para Minecraft Forge 1.16.5 que transforma a tela de
+Status do jogador em um sistema de RPG funcional: atributos distribuiveis
+(Strength, Defense, Speed, Constitution, Energy) ligados aos atributos
+reais do jogo, progressao por XP/nivel, dois recursos de energia (Common
+Energy e Corruption) com conversao entre eles, afinidade com racas e
+reputacao com faccoes.
+'''
+
+# Dependencia obrigatoria: Forge
+[[dependencies.eclipse]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+# Dependencia obrigatoria: Minecraft 1.16.5 (ate a proxima versao maior, exclusive)
+[[dependencies.eclipse]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
