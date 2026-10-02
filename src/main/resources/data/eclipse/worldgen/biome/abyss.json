@@ -1,0 +1,45 @@
+{
+  "precipitation": "none",
+  "category": "none",
+  "depth": 0.1,
+  "scale": 0.2,
+  "temperature": 0.2,
+  "downfall": 0.0,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 1710618,
+    "water_color": 4210943,
+    "water_fog_color": 2302755,
+    "ambient_sound": "minecraft:ambient.cave",
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    }
+  },
+  "surface_builder": "minecraft:nether",
+  "carvers": {
+    "air": ["minecraft:cave"]
+  },
+  "features": [
+    [], [], [], [], [], [], [], [], [], []
+  ],
+  "starts": [],
+  "spawners": {
+    "monster": [
+      {"type": "eclipse:abyssal_hand", "weight": 6, "minCount": 1, "maxCount": 2},
+      {"type": "eclipse:blood_worm", "weight": 10, "minCount": 3, "maxCount": 5},
+      {"type": "eclipse:aether_parasite", "weight": 10, "minCount": 3, "maxCount": 6},
+      {"type": "eclipse:ash_ghoul", "weight": 8, "minCount": 2, "maxCount": 3},
+      {"type": "eclipse:void_observer", "weight": 8, "minCount": 2, "maxCount": 3},
+      {"type": "eclipse:ember_imp", "weight": 8, "minCount": 3, "maxCount": 5}
+    ],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": false
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {"type": "minecraft:item", "weight": 10, "name": "minecraft:iron_ingot"},
+        {"type": "minecraft:item", "weight": 8, "name": "minecraft:bone"},
+        {"type": "minecraft:item", "weight": 6, "name": "minecraft:coal"},
+        {"type": "minecraft:item", "weight": 4, "name": "minecraft:gold_ingot"},
+        {"type": "minecraft:item", "weight": 2, "name": "minecraft:emerald"}
+      ]
+    }
+  ]
+}

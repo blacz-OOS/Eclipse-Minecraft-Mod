@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "eclipse:block/abyss_crystal",
+    "particle": "eclipse:block/abyss_crystal"
+  }
+}

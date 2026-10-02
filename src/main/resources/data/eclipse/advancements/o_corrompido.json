@@ -1,0 +1,17 @@
+{
+  "parent": "eclipse:root",
+  "display": {
+    "icon": { "item": "eclipse:abyss_shard" },
+    "title": { "translate": "advancements.eclipse.o_corrompido.title" },
+    "description": { "translate": "advancements.eclipse.o_corrompido.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted_by_code": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

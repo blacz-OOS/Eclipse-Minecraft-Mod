@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "eclipse:block/abyssal_pillar" },
+    "axis=z": { "model": "eclipse:block/abyssal_pillar", "x": 90 },
+    "axis=x": { "model": "eclipse:block/abyssal_pillar", "x": 90, "y": 90 }
+  }
+}

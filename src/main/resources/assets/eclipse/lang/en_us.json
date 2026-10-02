@@ -1,0 +1,451 @@
+{
+  "item.eclipse.silver": "Silver",
+  "item.eclipse.raw_silver": "Raw Silver",
+  "item.eclipse.pure_silver": "Pure Silver",
+  "item.eclipse.corrupted_leather": "Corrupted Leather",
+  "item.eclipse.corrupted_bone": "Corrupted Bone",
+  "item.eclipse.abyss_shard": "Abyss Shard",
+  "block.eclipse.deadwood_log": "Deadwood Log",
+  "block.eclipse.deadwood_planks": "Deadwood Planks",
+  "block.eclipse.silver_ore": "Silver Ore",
+  "item.eclipse.ghost_spawn_egg": "Ghost Spawn Egg",
+  "itemGroup.EclipseTab": "Eclipse",
+  "key.categories.eclipse": "Eclipse",
+  "key.eclipse.open_status": "Open Status Window",
+  "key.eclipse.attack_basic": "Basic Attack (Vampiric Fangs)",
+  "key.eclipse.open_skilltree": "Open Skill Tree",
+  "item.eclipse.silver_sword": "Silver Sword",
+  "item.eclipse.silver_dagger": "Silver Dagger",
+  "item.eclipse.holy_water": "Holy Water",
+  "item.eclipse.vampire_blood_bottle": "Vampire Blood Bottle",
+  "item.eclipse.hunter_special_bow": "Hunter's Special Bow",
+  "item.eclipse.eclipse_essence": "Eclipse Essence",
+  "item.eclipse.cultist_mask": "Cultist Mask",
+  "advancements.eclipse.root.title": "Eclipse",
+  "advancements.eclipse.root.description": "",
+  "advancements.eclipse.o_corrompido.title": "O Corrompido",
+  "advancements.eclipse.o_corrompido.description": "Complete the supernatural transformation without ever leaving the Abyss",
+  "item.eclipse.abyss_dust": "Abyss Dust",
+  "item.eclipse.spectral_shroud": "Spectral Shroud",
+  "item.eclipse.ectoplasmic_dust": "Ectoplasmic Dust",
+  "item.eclipse.sanguine_gland": "Sanguine Gland",
+  "item.eclipse.abyss_crystal": "Abyss Crystal",
+  "item.eclipse.abyss_core": "Abyss Core",
+  "item.eclipse.eclipse_fragment": "Eclipse Fragment",
+  "item.eclipse.eclipse_crystal": "Eclipse Crystal",
+  "item.eclipse.eclipse_relic": "Eclipse Relic",
+  "item.eclipse.lunar_essence": "Lunar Essence",
+  "item.eclipse.hunter_trap": "Hunter Trap",
+  "item.eclipse.vampire_fang": "Vampire Fang",
+  "item.eclipse.vampire_heart": "Vampire Heart",
+  "item.eclipse.eclipse_grimoire": "Grimoire of the Eclipse",
+  "item.eclipse.werewolf_fang": "Werewolf Fang",
+  "item.eclipse.werewolf_fur": "Werewolf Fur",
+  "item.eclipse.werewolf_liver": "Werewolf Liver",
+  "item.eclipse.alpha_fang": "Alpha Fang",
+  "item.eclipse.hunter_badge": "Hunter Badge",
+  "item.eclipse.cultist_mark": "Cultist Mark",
+  "item.eclipse.cultist_idol": "Cultist Idol",
+  "item.eclipse.abyssal_relic": "Abyssal Relic",
+  "block.eclipse.abyss_crystal": "Abyss Crystal",
+  "block.eclipse.charged_abyss_crystal": "Charged Abyss Crystal",
+  "item.eclipse.abyssal_hand_spawn_egg": "Abyssal Hand Spawn Egg",
+  "item.eclipse.blood_worm_spawn_egg": "Blood Worm Spawn Egg",
+  "item.eclipse.aether_parasite_spawn_egg": "Aether Parasite Spawn Egg",
+  "item.eclipse.ash_ghoul_spawn_egg": "Ash Ghoul Spawn Egg",
+  "item.eclipse.void_observer_spawn_egg": "Void Observer Spawn Egg",
+  "item.eclipse.ember_imp_spawn_egg": "Ember Imp Spawn Egg",
+  "item.eclipse.dry_body_spawn_egg": "Dry Body Spawn Egg",
+  "item.eclipse.mist_ghoulin_spawn_egg": "Mist Ghoulin Spawn Egg",
+  "item.eclipse.corrupted_saci_spawn_egg": "Corrupted Saci Spawn Egg",
+  "item.eclipse.sulfur_hound_spawn_egg": "Sulfur Hound Spawn Egg",
+  "item.eclipse.forest_specter_spawn_egg": "Forest Specter Spawn Egg",
+  "item.eclipse.mapinguari_spawn_egg": "Mapinguari Spawn Egg",
+  "item.eclipse.wendigo_spawn_egg": "Wendigo Spawn Egg",
+  "item.eclipse.mapinguari_tongue": "Mapinguari Tongue",
+  "item.eclipse.wendigo_horn": "Wendigo Horn",
+  "entity.eclipse.ghost": "Ghost",
+  "entity.eclipse.abyssal_hand": "Abyssal Hand",
+  "entity.eclipse.blood_worm": "Blood Worm",
+  "entity.eclipse.aether_parasite": "Aether Parasite",
+  "entity.eclipse.ash_ghoul": "Ash Ghoul",
+  "entity.eclipse.void_observer": "Void Observer",
+  "entity.eclipse.void_bolt": "Void Bolt",
+  "entity.eclipse.ember_imp": "Ember Imp",
+  "entity.eclipse.dry_body": "Dry Body",
+  "entity.eclipse.mist_ghoulin": "Mist Ghoulin",
+  "entity.eclipse.corrupted_saci": "Corrupted Saci",
+  "entity.eclipse.sulfur_hound": "Sulfur Hound",
+  "entity.eclipse.forest_specter": "Forest Specter",
+  "entity.eclipse.mapinguari": "Mapinguari",
+  "entity.eclipse.wendigo": "Wendigo",
+  "entity.eclipse.hunter_npc": "Hunter",
+  "entity.eclipse.cultist_npc": "Cultist",
+  "item.eclipse.hunter_npc_spawn_egg": "Hunter Spawn Egg",
+  "item.eclipse.cultist_npc_spawn_egg": "Cultist Spawn Egg",
+  "block.eclipse.altar": "Altar",
+  "block.eclipse.ritual_chalk": "Ritual Chalk",
+  "block.eclipse.blood_chalk": "Blood Chalk",
+  "block.eclipse.blood_altar": "Blood Altar",
+  "block.eclipse.moon_altar": "Moon Altar",
+  "block.eclipse.moon_altar_stone": "Moon Altar Stone",
+  "block.eclipse.abyss_altar_core": "Abyss Altar Core",
+  "block.eclipse.abyssal_pillar": "Abyssal Pillar",
+  "block.eclipse.abyssal_rune": "Abyssal Rune",
+  "block.eclipse.abyssal_ruin_foundation": "Abyssal Ruin Foundation",
+  "block.eclipse.trap": "Trap",
+
+  "hud.eclipse.health": "Health",
+  "hud.eclipse.corruption": "Corruption",
+  "hud.eclipse.energy": "Energy",
+
+  "gui.eclipse.statstitle": "STATS",
+  "gui.eclipse.button.convert": "Conv.",
+  "gui.eclipse.stat.level": "Level: %s",
+  "gui.eclipse.stat.race": "Race: %s",
+  "gui.eclipse.stat.faction": "Faction: %s",
+
+  "faction.eclipse.none": "None",
+  "faction.eclipse.hunters": "Hunters",
+  "faction.eclipse.cultists": "Cultists",
+
+  "race.eclipse.human": "Human",
+  "race.eclipse.vampire": "Vampire",
+  "race.eclipse.werewolf": "Werewolf",
+
+  "gui.eclipse.stat.xp": "XP: %s/%s (%s%%)",
+  "gui.eclipse.stat.hp": "HP",
+  "gui.eclipse.stat.strength": "Strength",
+  "gui.eclipse.stat.defense": "Defense",
+  "gui.eclipse.stat.speed": "Speed",
+  "gui.eclipse.stat.constitution": "Constitution",
+  "gui.eclipse.stat.energy": "Energy",
+  "gui.eclipse.stat.points": "Points: %s",
+  "gui.eclipse.stat.common_energy": "Energy",
+  "gui.eclipse.stat.corruption": "Corruption",
+  "gui.eclipse.header.affinities": "Afinities",
+  "gui.eclipse.header.reputations": "Reputations",
+
+  "affinity.eclipse.vampiric": "Vampiric",
+  "affinity.eclipse.lupine": "Lupine",
+
+  "reputation.eclipse.hunters": "Hunters",
+  "reputation.eclipse.cultists": "Cultists",
+  "reputation.eclipse.vampires": "Vampires",
+  "reputation.eclipse.werewolfs": "Werewolfs",
+
+
+
+  "gui.eclipse.skill_tree.title": "Skill Tree",
+  "gui.eclipse.skill_tree.race": "Race",
+  "gui.eclipse.skill_tree.faction": "Faction",
+  "gui.eclipse.skill_tree.available_points": "Available Points: %s",
+
+  "skill.eclipse.required_level": "Level Request",
+  "skill.eclipse.cost": "Cost: ",
+  "skill.eclipse.requires": "Requires",
+  "skill.eclipse.unknown_prerequisite": "Unknown: %s",
+  "skill.eclipse.prerequisite_locked": "(prerequisite)",
+  "skill.eclipse.cooldown": "Cooldown",
+  "skill.eclipse.energy": "Energy",
+  "skill.eclipse.on_cooldown": "In cooldown",
+  "skill.eclipse.unlocked": "Unlocked",
+
+
+
+  "message.eclipse.quest.delivered": "§aQuest completed: %s",
+  "message.eclipse.quest.accepted": "§aNew quest: %s - %s",
+  "message.eclipse.quest.status_header": "§e[Quest Status] %s:",
+  "message.eclipse.quest.progress_kill": "§7 - %s: %d/%d killed",
+  "message.eclipse.quest.progress_collect": "§7 - %s: %d/%d collected",
+  "message.eclipse.quest.book.empty": "§7Nothing new on the pages for now.",
+  "message.eclipse.quest.book.known_rituals": "§7Known rituals:",
+  "message.eclipse.quest.book.none_registered": "none registered yet.",
+  "dialogue.eclipse.quest.option.deliver": "[Deliver] %s",
+  "dialogue.eclipse.quest.option.in_progress": "[In Progress] %s",
+  "dialogue.eclipse.quest.option.accept": "[Accept] %s",
+  "dialogue.eclipse.cultist.who_option": "Who are the Cultists?",
+  "dialogue.eclipse.cultist.who_response": "§7We serve the Abyss. What others fear, we seek to understand - and use.",
+  "dialogue.eclipse.cultist.reputation_option": "My reputation with the Cultists",
+  "dialogue.eclipse.cultist.reputation_response": "§7Reputation: %d/100",
+  "dialogue.eclipse.cultist.rites_option": "Rites and offerings (coming soon)",
+  "dialogue.eclipse.cultist.rites_response": "§7Nothing to offer for now.",
+  "dialogue.eclipse.cultist.no_quest": "No rites available right now.",
+  "dialogue.eclipse.cultist.no_quest_response": "§7Return when you are ready to serve the Abyss.",
+  "dialogue.eclipse.hunter.who_option": "Who are the Hunters?",
+  "dialogue.eclipse.hunter.who_response": "§7We hunt what hides in the night - silver, holy water, and discipline against the supernatural.",
+  "dialogue.eclipse.hunter.reputation_option": "My reputation with the Hunters",
+  "dialogue.eclipse.hunter.reputation_response": "§7Reputation: %d/100",
+  "dialogue.eclipse.hunter.shop_option": "Buy equipment (coming soon)",
+  "dialogue.eclipse.hunter.shop_response": "§7I have nothing to sell yet.",
+  "dialogue.eclipse.hunter.no_quest": "No missions available right now.",
+  "dialogue.eclipse.hunter.no_quest_response": "§7Stay vigilant. The night is full of dangers.",
+  "quest.eclipse.cacadores_primeira_cacada.title": "First Hunt",
+  "quest.eclipse.cacadores_primeira_cacada.desc": "Prove your worth: eliminate 5 zombies.",
+  "quest.eclipse.cacadores_primeira_cacada.obj.0": "Eliminate 5 Zombies",
+  "quest.eclipse.cacadores_cacada_sobrenatural.title": "Traces in the Swamp",
+  "quest.eclipse.cacadores_cacada_sobrenatural.desc": "A Dry Body was seen wandering nearby. Eliminate it.",
+  "quest.eclipse.cacadores_cacada_sobrenatural.obj.0": "Eliminate 1 Dry Body",
+  "quest.eclipse.cacadores_entrega_prata.title": "Supplying the Arsenal",
+  "quest.eclipse.cacadores_entrega_prata.desc": "Deliver pure silver to reinforce the garrison's weaponry.",
+  "quest.eclipse.cacadores_entrega_prata.obj.0": "Deliver 4 Pure Silver",
+  "quest.eclipse.vampiro_sede_inicial.title": "Initial Thirst",
+  "quest.eclipse.vampiro_sede_inicial.desc": "A newly awakened Vampire needs to feed - eliminate 3 spiders.",
+  "quest.eclipse.vampiro_sede_inicial.obj.0": "Eliminate 3 Spiders",
+  "quest.eclipse.lobisomem_primeira_presa.title": "First Prey",
+  "quest.eclipse.lobisomem_primeira_presa.desc": "The hunting instinct awakens - eliminate 3 skeletons.",
+  "quest.eclipse.lobisomem_primeira_presa.obj.0": "Eliminate 3 Skeletons",
+  "quest.eclipse.cultistas_primeiro_sacrificio.title": "First Sacrifice",
+  "quest.eclipse.cultistas_primeiro_sacrificio.desc": "Deliver 1 Corrupted Bone as an offering.",
+  "quest.eclipse.cultistas_primeiro_sacrificio.obj.0": "Deliver 1 Corrupted Bone",
+
+  "grimoire.eclipse.cover.1": "§c§lGRIMOIRE OF THE ECLIPSE\n \n§0RECORD OF OBSERVATIONS ON THE SUPERNATURAL",
+  "grimoire.eclipse.cover.2": "§0This tome contains observations on the §5Abyss§0, its manifestations, and the main supernatural lineages found in the known world.\n§8Author's Note: §0These records were compiled from accounts, experiments, encounters, and field observations \n",
+  "grimoire.eclipse.cover.3": "in the field. Some conclusions remain provisional. §0The distinction between supernatural phenomenon, organism, and entity remains unsatisfactory. In many cases, the same principle appears to produce manifestations",
+
+  "grimoire.eclipse.index.1": "of completely different natures.\n\n§0§lINDEX\n§cI. Vampirism\n§6II. Path of the Wolf\n§3III. Order of Silver\n§5IV. Cult of the Abyss\n§2V. Bestiary\n§4VI. The Eclipse\n§4VII. Rituals and Altars\n§5VIII. The Abyss\n§6IX. Abilities",
+  "grimoire.eclipse.vampire.1.1": "§7X. The Silver Forge\n§4XI. Commands\n \n§c§lI. VAMPIRISM\n§0Vampirism appears to be a transmissible condition of hematic nature.\nInfection may occur after being bitten by a §cVampire§0 or by ingesting §cCorrupted Blood§0.",
+  "grimoire.eclipse.vampire.1.2": "§0Complete transformation requires exactly §c3 days in total§0.\n§8Author's Note: §0The progression observed does not correspond to a simple disease. Physiological changes arise before complete transformation, indicating",
+
+  "grimoire.eclipse.vampire.2.1": "a gradual restructuring of the organism. \n§c§lVAMPIRE: ADVANTAGES\n§4✦ Attributes§0\nStrength and Speed are passively amplified.\n§4✦ Senses§0\nVisual perception in dark environments is significantly",
+  "grimoire.eclipse.vampire.2.2": "§0enhanced, producing effects similar to Night Vision.\n§4✦ Immunity§0\nCommon poisons show little or no effectiveness.\n§c§lVAMPIRE: BLOOD AND WEAKNESSES\n§0Blood appears to play an essential role ",
+
+  "grimoire.eclipse.vampire.3.1": "§0in maintaining the vampiric condition. \n \nTo drain a creature:\nSneak and right-click while holding an empty hand.\n\n§4§lFATAL WEAKNESSES§0\n\nSunlight causes progressive combustion ",
+  "grimoire.eclipse.vampire.3.2": "progressively.\nAttacks with §7Silver§0 deal §c3×§0 normal damage.\n§8Author's Note: §0The vulnerability to silver is particularly consistent. Unlike other weaknesses attributed to vampires in popular accounts, ",
+
+  "grimoire.eclipse.werewolf.1.1": "this one can be reliably reproduced.\n§6§lII. PATH OF THE WOLF\n§0Lycanthropy can be contracted after surviving an attack by an §6Alpha§0.\nTransformation manifests forcibly during the nights of the §6Full Moon§0.",
+  "grimoire.eclipse.werewolf.2.1": "§6§lWEREWOLF: ADVANTAGES\n§6✦ Regeneration§0\nWound recovery is accelerated, even during combat.\n§6✦ Claws§0\n§0The transformation produces natural weapons capable of dealing high unarmed damage.",
+  "grimoire.eclipse.werewolf.2.2": "§6✦ Agility§0\nJumps and running speed are superior to those of an ordinary human.\n§6§lWEREWOLF: WEAKNESSES\n§6✦ Vulnerabilities§0\nAccelerated hunger.\nSensitivity to §1Holy Water§0 and §7Silver§0.",
+  "grimoire.eclipse.werewolf.3.1": "§8Author's Note: §0Among the creatures studied, werewolves exhibit one of the clearest relationships between altered physiology and predatory behavior.",
+
+  "grimoire.eclipse.hunters.1.1": "§3§lIII. ORDER OF SILVER\n§0The Hunters' Order is made up of humans who reject or combat supernatural manifestations.\nThe Order has accumulated knowledge about anomalous creatures through successive generations ",
+  "grimoire.eclipse.hunters.1.2": "of hunting and experimentation.\n§3§lJOINING THE ORDER\n§0Deliver §75 Pure Silvers§0 to the Hunt Master, present at the Garrison.\n§8Author's Note: §0The Order seems to treat silver not only as a weapon but also as a material for study. ",
+  "grimoire.eclipse.hunters.2.1": "Its experience surpasses, in some cases, any known explanation.\n§3§lHUNTERS: ARSENAL I\n\n§7✦ Silver Sword§0\nInterferes with the natural regeneration of monsters.\n\n§6✦ Stake Crossbow§0\nDeals critical damage to vampires.",
+  "grimoire.eclipse.hunters.2.2": "§3§lHUNTERS: ARSENAL II\n\n§1✦ Holy Water§0\nCreates a purification area capable of harming undead creatures.\n\n§8✦ Bear Trap§0\nImmobilizes the target and applies Slowness III.",
+
+  "grimoire.eclipse.cultists.1.1": "§5§lIV. CULT OF THE ABYSS\n§0The Cult of the Abyss is devoted to manipulating forces considered incompatible with the known laws of nature.\nTheir methods include dark magic, summoning, and sacrifice.",
+  "grimoire.eclipse.cultists.1.2": "§5§lREQUIREMENTS\n§0Wear the complete §5Cultist Robe§0 set and read the §5Tome of Shadows§0.\n§5§lCULTISTS: SACRIFICES§0\nUse the §5Unholy Altar§0 to sacrifice passive creatures and gain favor from the shadows.",
+  "grimoire.eclipse.cultists.2.1": "§c§lWarning:§0\nYou will lose all reputation with the §3Hunters' Order§0.\n§8Author's Note: §0I was unable to determine whether the so-called “favor from the shadows” constitutes a measurable form of energy",
+
+  "grimoire.eclipse.bestiary.1.1": "§2§lV. BESTIARY\n§0The classification below was organized by apparent origin and observed behavior.\nThe designation of some creatures remains provisional.",
+  "grimoire.eclipse.bestiary.1.2": "§2§lBESTIARY: TERRESTRIAL\n§2✦ Ash Ghoul§0\nA corpse of anomalous nature associated with ashes and regions of intense thermal activity.\nIt displays signs of advanced decomposition.",
+  "grimoire.eclipse.bestiary.1.3": "§c✦ Blood Worm§0\nA cavernous parasite specialized in draining the vitality of living organisms.\n§8Record obtained: §cBlood Gland§0.\n§2✦ Dried Corpse§0\nA severely dehydrated human corpse.",
+  "grimoire.eclipse.bestiary.1.4": "§0It demonstrates unusual resistance to fire.\n§8Record obtained: §0Corrupted Bone§0.\n§2✦ Mapinguari§0\nA large creature of unknown origin, primarily associated with forest regions.",
+  "grimoire.eclipse.bestiary.1.5": "§0Reports describe territorial behavior and high aggression.\n§2✦ Mist Ghoul§0\nA predator frequently found in areas covered by mist.\nIts behavior favors discreet approaches.",
+  "grimoire.eclipse.bestiary.1.6": "§2✦ Sulfur Hound§0\nA canid of anomalous nature associated with sulfur compounds and environments of high thermal activity.\n§4✦ Wendigo§0\nA large humanoid creature associated with regions of extreme cold.",
+  "grimoire.eclipse.bestiary.1.7": "§0It is found primarily in icy biomes and snowy forests.\n§8Record obtained: §4Wendigo's Horn§0.\n§8Author's Note: §0The presence of creatures resembling figures from ancient traditions and legends is far too common to be ignored.",
+  "grimoire.eclipse.bestiary.2.1": "§0It remains unknown whether these legends originated from real encounters or whether the Abyss simply reproduces concepts that already exist.",
+  "grimoire.eclipse.bestiary.2.2": "§2§lBESTIARY: ETHEREAL\n§3✦ Forest Wraith§0\nA wraith associated with forests.\nInsufficient data to detail its effects.\n§8Record obtained: §3Ectoplasmic Dust§0.",
+  "grimoire.eclipse.bestiary.2.3": "§5✦ Ghost§0\nAn incorporeal entity resistant to most conventional physical attacks.\n§7Silver§0 demonstrates exceptional effectiveness against its manifestation.",
+  "grimoire.eclipse.bestiary.3.1": "§8Record obtained: §7Spectral Shroud§0.\n§8Author's Note: §0Ghosts defy any purely biological classification. It is unclear whether we are observing an organism, a remnant of consciousness, or an independent manifestation.",
+  "grimoire.eclipse.bestiary.3.2": "§2§lBESTIARY: ABYSSAL\n§5✦ Abyssal Hand§0\nA manifestation of unknown origin, identified by its extremely unusual anatomy.\nIts form suggests the possibility that it may constitute only an extension of a larger entity.",
+  "grimoire.eclipse.bestiary.3.3": "§5✦ Aether Parasite§0\nA parasitic organism with anomalous structure.\nIts relationship with energy sources remains inconclusive.",
+  "grimoire.eclipse.bestiary.3.4": "§5✦ Corrupted Saci§0\nA corrupted entity associated with supernatural manifestations of apparently folkloric origin.\nIts nature suggests contact with or influence from the Abyss.\nIt demonstrates a certain distorted sense of humor.",
+  "grimoire.eclipse.bestiary.3.5": "§6✦ Flame Imp§0\nA small entity of fiery nature.\nIt shows a strong association with heat and combustion.\n§5✦ Abyssal Watcher§0\nAn abyssal entity capable of firing concentrated beams of energy.",
+  "grimoire.eclipse.bestiary.3.6": "§8Author's Note: §0Creatures classified as abyssal exhibit the highest degree of anatomical irregularity. Some do not even appear to obey the common distinction between matter and energy.",
+
+  "grimoire.eclipse.eclipse.1.1": "§4§lVI. THE ECLIPSE\n§0The Eclipse is a phenomenon of extraordinary occurrence associated with the weakening of the separation between the known world and the §5Abyss§0.\nDuring its manifestation,",
+  "grimoire.eclipse.eclipse.1.2": "§0environmental and supernatural alterations become significantly more frequent.\nThe sky takes on an abnormal coloration, darkness intensifies, and abyssal manifestations become possible.",
+  "grimoire.eclipse.eclipse.1.3": "§8Author's Note: §0I do not consider the Eclipse to be a simple astronomical alteration. The coincidence between the phenomenon and the increase in abyssal manifestations is statistically difficult to ignore.",
+
+  "grimoire.eclipse.rituals.1.1": "§4§lVII. RITUALS AND ALTARS\n§4✦ BLOOD ALTAR§0\nA structure composed of §8Blood Bricks§0, with a central basin.\nUse a §cDagger§0 to convert XP into Extra Life Potions.",
+  "grimoire.eclipse.rituals.1.2": "§8Author's Note: §0The conversion of experience into functional matter remains without a satisfactory explanation. The process appears to use blood as an intermediary.",
+  "grimoire.eclipse.rituals.2.1": "§4§lALTARS:\n\n§3✦ MOON ALTAR§0\nBuilt with:\n4 Quartz Pillars\n§01 Silver Slab\nWhen exposed to moonlight, the altar transforms Silver into §3Blessed Silver§0.\n",
+  "grimoire.eclipse.rituals.2.2": "§8Author's Note: §0The reaction does not occur simply through the presence of the Moon. The altar appears to act as a mechanism for concentrating or modifying lunar energy.",
+  "grimoire.eclipse.rituals.3.1": "§5§lABYSS PORTAL\n§0§lPROCEDURE§0\n1. Place the §5Altar Core§0 in the center.\n2. Draw a 3×3 circle using §5Ritual Chalk§0.\n§8Author's Note: §0This information is incomplete and inconclusive at the present time.",
+
+  "grimoire.eclipse.abyss.1.1": "§5§lVIII. THE ABYSS\n§0A fragmented dimension suspended in an apparently eternal void.\nIts geography is unstable and its physical properties differ significantly from those observed in the known world.",
+  "grimoire.eclipse.abyss.1.2": "§0The air is highly toxic.\nSurvival requires the §5Cultist Mask§0 or a monstrous physiology capable of withstanding the environment.\nBeds explode violently.",
+  "grimoire.eclipse.abyss.2.1": "§5§lTHE ABYSS: DANGERS AND RESOURCES\n§0In the deepest regions, the rare ore §5Tenebrium§0 can be found.\n§8Author's Note: §0The Abyss appears less like a natural place and more like an incomplete structure.",
+  "grimoire.eclipse.abyss.2.2": "§0Fragments of environments exist side by side without obeying conventional geographic logic.\n§6§lIX. ABILITIES AND XP\n§0Press §6[K]§0 to open the stats.",
+
+  "grimoire.eclipse.skills.1": "§0Gain §6Points§0 by eliminating rival mobs or completing missions.\n§6§lNOTABLE ABILITIES\n§6✦ Bat Form§0\nAllows temporary flight for 15 seconds.",
+  "grimoire.eclipse.skills.2": "§6✦ War Cry§0\nGrants Strength II to the group.\n§3✦ Silver Mastery§0\nGrants +30% silver-related damage and durability.\n§8Author's Note: §0The origin of the Points remains unknown.",
+  "grimoire.eclipse.skills.3": "§0However, their acquisition is clearly tied to experience accumulated through conflict and survival.\n§7§lX. THE SILVER FORGE\n§0Common silver has insufficient durability for advanced combat applications.",
+
+  "grimoire.eclipse.silver_forge.1": "§0The Hunter's Forge allows it to undergo a purification process.\n§7§lPROCEDURE§0\nSmelt Silver in the Hunter's Forge using §6Blaze Powder§0 to synthesize §7Pure Silver§0.",
+  "grimoire.eclipse.silver_forge.2": "§8Author's Note: §0The result is not merely more durable silver. Its effectiveness against certain creatures suggests a change in the material's fundamental properties.",
+
+  "grimoire.eclipse.commands.1": "§4§lXI. USEFUL COMMANDS\n§3/eclipse stats§0\nShows your level and thirst.\n§3/eclipse fac reset§0\nResets your faction. Cost: 30 XP.",
+  "grimoire.eclipse.final.1": "§4§lFINAL AUTHOR'S NOTE I\n§0Much of what is recorded in this tome remains incomplete. §0The creatures can be observed. The rituals can be repeated. The effects can be measured.",
+
+  "grimoire.eclipse.final.2": "But the origin of all this remains obscure.\n \n§4FINAL AUTHOR'S NOTE II: §0There is one hypothesis I have been unable to eliminate after years of investigation: perhaps we are making the mistake of studying the Abyss as a place.",
+  "grimoire.eclipse.final.3": "Perhaps it is a process. §0And, if this hypothesis is correct, the creatures, the rituals, and even the Eclipse may be only symptoms of something far greater.",
+
+  "skill.eclipse.vampiro_sentidos_vampiricos.name": "Vampiric Sense",
+  "skill.eclipse.vampiro_sentidos_vampiricos.description": "Marks nearby supernatural creatures within 16 blocks with a particle above their heads, visible only to you; identifies their type in the action bar when aiming at them.",
+
+  "skill.eclipse.vampiro_presas_vampiricas.name": "Vampire Fangs",
+  "skill.eclipse.vampiro_presas_vampiricas.description": "Bites the aimed target, dealing 2 damage and restoring 0.5 HP + 0.5 Energy.",
+
+  "skill.eclipse.vampiro_visao_noturna.name": "Night Vision",
+  "skill.eclipse.vampiro_visao_noturna.description": "Grants night vision while you are a vampire.",
+
+  "skill.eclipse.vampiro_regeneracao_sanguinea.name": "Blood Regeneration",
+  "skill.eclipse.vampiro_regeneracao_sanguinea.description": "Doubles the healing provided by the Vampire Blood Bottle. Vampiric Fangs already have their own healing effect.",
+
+  "skill.eclipse.vampiro_velocidade_predatoria.name": "Predatory Speed",
+  "skill.eclipse.vampiro_velocidade_predatoria.description": "Increases movement speed by 1.8x.",
+
+  "skill.eclipse.vampiro_passo_sombrio.name": "Shadow Step",
+  "skill.eclipse.vampiro_passo_sombrio.description": "Performs a rapid dash of approximately 3 blocks. Passing through blocks during use is not yet implemented.",
+
+  "skill.eclipse.vampiro_fome_de_sangue.name": "Blood Frenzy",
+  "skill.eclipse.vampiro_fome_de_sangue.description": "For 15s, increases damage, speed and resistance by 2x. The vampiric hunger cost is not yet implemented.",
+
+  "skill.eclipse.vampiro_sangue_espesso.name": "Thick Blood",
+  "skill.eclipse.vampiro_sangue_espesso.description": "Reduces received damage by 1/3.",
+
+  "skill.eclipse.vampiro_flecha_de_sangue.name": "Blood Arrow",
+  "skill.eclipse.vampiro_flecha_de_sangue.description": "A ranged attack with a range of up to 12 blocks that deals 3 damage.",
+
+  "skill.eclipse.vampiro_dominacao_sanguinea.name": "Blood Domination",
+  "skill.eclipse.vampiro_dominacao_sanguinea.description": "Affects a 7x7 area for 10s, applying simplified effects based on creature type. Does not affect bosses.",
+
+  "skill.eclipse.vampiro_forma_de_nevoa.name": "Mist Form",
+  "skill.eclipse.vampiro_forma_de_nevoa.description": "For 5s, you can pass through blocks and creatures, take no damage, and deal 2.5 damage to each mob you pass through.",
+
+  "skill.eclipse.vampiro_regeneracao_superior.name": "Superior Regeneration",
+  "skill.eclipse.vampiro_regeneracao_superior.description": "Doubles the healing of the Vampire Blood Bottle again. The full hunger condition is not yet implemented.",
+
+  "skill.eclipse.vampiro_hipnose.name": "Hypnosis",
+  "skill.eclipse.vampiro_hipnose.description": "Nearby humanoids receive Slowness II and Weakness I for 5s. During this time, player damage is multiplied by 2.",
+
+  "skill.eclipse.vampiro_velocidade_sobrenatural.name": "Supernatural Speed",
+  "skill.eclipse.vampiro_velocidade_sobrenatural.description": "For 15s, grants 2.5x movement speed. Jump and attack speed are not yet implemented.",
+
+  "skill.eclipse.vampiro_senhor_do_sangue.name": "Lord of Blood",
+  "skill.eclipse.vampiro_senhor_do_sangue.description": "For 15s, increases damage, speed and resistance by 3x. 3x regeneration is not yet implemented.",
+
+  "skill.eclipse.vampiro_ascensao_vampirica.name": "Vampiric Ascension",
+  "skill.eclipse.vampiro_ascensao_vampirica.description": "For 25s, grants 4x speed, 6x resistance and 3.5x damage. Nearby mobs glow. 5x regeneration is not yet implemented.",
+
+
+  "skill.eclipse.lobisomem_instinto_bestial.name": "Beast Instinct",
+  "skill.eclipse.lobisomem_instinto_bestial.description": "Allows you to perceive nearby creatures. The effect is not yet implemented and requires rendering.",
+
+  "skill.eclipse.lobisomem_garras_bestiais.name": "Bestial Claws",
+  "skill.eclipse.lobisomem_garras_bestiais.description": "Increases melee attack damage by 0.5.",
+
+  "skill.eclipse.lobisomem_olfato_predatorio.name": "Predatory Smell",
+  "skill.eclipse.lobisomem_olfato_predatorio.description": "Creates a trail of red particles around supernatural creatures within 10 blocks, becoming more intense as they are more wounded.",
+
+  "skill.eclipse.lobisomem_forca_bestial.name": "Bestial Strength",
+  "skill.eclipse.lobisomem_forca_bestial.description": "Doubles attack damage.",
+
+  "skill.eclipse.lobisomem_resistencia_bestial.name": "Bestial Resistance",
+  "skill.eclipse.lobisomem_resistencia_bestial.description": "Reduces received damage to 0.75x its normal value.",
+
+  "skill.eclipse.lobisomem_investida.name": "Charge",
+  "skill.eclipse.lobisomem_investida.description": "Charges forward 3 blocks, deals 1 damage and knocks the target back 2.5 blocks.",
+
+  "skill.eclipse.lobisomem_furia.name": "Fury",
+  "skill.eclipse.lobisomem_furia.description": "For 15s, increases strength, speed and resistance by 2x.",
+
+  "skill.eclipse.lobisomem_regeneracao_bestial.name": "Bestial Regeneration",
+  "skill.eclipse.lobisomem_regeneracao_bestial.description": "Restores 1 HP whenever a melee attack hits.",
+
+  "skill.eclipse.lobisomem_rugido_intimidador.name": "Intimidating Roar",
+  "skill.eclipse.lobisomem_rugido_intimidador.description": "Affects creatures within a 7-block radius, applying a form of paralysis for 2s through extreme Slowness.",
+
+  "skill.eclipse.lobisomem_transformacao_parcial.name": "Partial Transformation",
+  "skill.eclipse.lobisomem_transformacao_parcial.description": "For 60s, grants 3x strength, 2.5x resistance and 2.5x speed. Claw bleeding is not yet implemented.",
+
+  "skill.eclipse.lobisomem_salto_predatorio.name": "Predatory Leap",
+  "skill.eclipse.lobisomem_salto_predatorio.description": "Performs a directed leap of approximately 8 to 10 blocks and deals 3 area damage upon landing without taking fall damage.",
+
+  "skill.eclipse.lobisomem_furia_lunar.name": "Lunar Fury",
+  "skill.eclipse.lobisomem_furia_lunar.description": "At night, applies a damage, speed and resistance multiplier based on the moon phase, from 2x during the Full Moon to 0.5x during the New Moon. Duration is not yet defined.",
+
+  "skill.eclipse.lobisomem_pele_de_ferro.name": "Iron Skin",
+  "skill.eclipse.lobisomem_pele_de_ferro.description": "Increases resistance by 2.5x.",
+
+  "skill.eclipse.lobisomem_predador_alfa.name": "Alpha Predator",
+  "skill.eclipse.lobisomem_predador_alfa.description": "Grants 3x damage, 2x speed and 2x resistance. Enhanced senses and bonuses against weaker creatures are not yet implemented.",
+
+  "skill.eclipse.lobisomem_forma_alfa.name": "Alpha Form",
+  "skill.eclipse.lobisomem_forma_alfa.description": "For 60s, grants 6x strength, 5x resistance and 4x speed. Special attacks and an enhanced roar are not yet implemented.",
+
+
+  "skill.eclipse.cacadores_conhecimento_de_monstros.name": "Monster Knowledge",
+  "skill.eclipse.cacadores_conhecimento_de_monstros.description": "Marks nearby supernatural creatures within 16 blocks with a particle and identifies their type in the action bar when aiming at them.",
+
+  "skill.eclipse.cacadores_treinamento_com_prata.name": "Silver Training",
+  "skill.eclipse.cacadores_treinamento_com_prata.description": "Grants 25% additional damage with silver weapons against supernatural creatures.",
+
+  "skill.eclipse.cacadores_rastreador.name": "Tracker",
+  "skill.eclipse.cacadores_rastreador.description": "Creates a trail of red particles around supernatural creatures within 10 blocks.",
+
+  "skill.eclipse.cacadores_golpe_preciso.name": "Precise Strike",
+  "skill.eclipse.cacadores_golpe_preciso.description": "The next melee strike within 5s receives a +3 damage bonus.",
+
+  "skill.eclipse.cacadores_armadilha_de_cacador.name": "Hunter's Trap",
+  "skill.eclipse.cacadores_armadilha_de_cacador.description": "Creates a red mark on the ground that attracts supernatural creatures within 10 blocks and applies extreme Slowness for 5s when they approach.",
+
+  "skill.eclipse.cacadores_preparacao_alquimica.name": "Alchemical Preparation",
+  "skill.eclipse.cacadores_preparacao_alquimica.description": "Grants 3 Holy Waters when unlocked. The Holy Water recipe remains available for crafting.",
+
+  "skill.eclipse.cacadores_marca_do_cacador.name": "Hunter's Mark",
+  "skill.eclipse.cacadores_marca_do_cacador.description": "Marks the aimed target, applying Weakness I and Slowness I for 30s. The visual icon and additional damage are not yet implemented.",
+
+  "skill.eclipse.cacadores_armadilha_de_prata.name": "Silver Trap",
+  "skill.eclipse.cacadores_armadilha_de_prata.description": "Uses the same base as Hunter's Trap. Extra damage and specific effects have not yet been defined.",
+
+  "skill.eclipse.cacadores_conhecimento_anatomico.name": "Anatomical Knowledge",
+  "skill.eclipse.cacadores_conhecimento_anatomico.description": "Increases damage against supernatural creatures by 15%.",
+
+  "skill.eclipse.cacadores_municao_especial.name": "Special Ammunition",
+  "skill.eclipse.cacadores_municao_especial.description": "Grants the Special Bow with 5 durability. Its arrows deal +3 damage against supernatural creatures.",
+
+  "skill.eclipse.cacadores_ritual_de_contencao.name": "Containment Ritual",
+  "skill.eclipse.cacadores_ritual_de_contencao.description": "Affects supernatural creatures within a 5-block radius, applying Slowness II and Weakness I for 10s.",
+
+  "skill.eclipse.cacadores_mestre_cacador.name": "Master Hunter",
+  "skill.eclipse.cacadores_mestre_cacador.description": "Grants +1 damage against supernatural creatures, +1 silver efficiency and makes marks last 2x longer. Some effects are not yet implemented.",
+
+  "skill.eclipse.cacadores_arsenal_do_exterminador.name": "Exterminator's Arsenal",
+  "skill.eclipse.cacadores_arsenal_do_exterminador.description": "For 30s, grants Strength IV and Resistance III. Additional bonuses for silver, ammunition and supernatural damage are not yet implemented.",
+
+
+  "skill.eclipse.cultistas_conhecimento_proibido.name": "Forbidden Knowledge",
+  "skill.eclipse.cultistas_conhecimento_proibido.description": "Allows interaction with hidden content. The effect is not yet implemented.",
+
+  "skill.eclipse.cultistas_marca_do_culto.name": "Cult Mark",
+  "skill.eclipse.cultistas_marca_do_culto.description": "Recognizes cult symbols, locations and structures. The effect is not yet implemented.",
+
+  "skill.eclipse.cultistas_sussurros_do_abismo.name": "Whispers of the Abyss",
+  "skill.eclipse.cultistas_sussurros_do_abismo.description": "Allows you to perceive signs of the Abyss. The effect is not yet implemented.",
+
+  "skill.eclipse.cultistas_pequeno_ritual.name": "Minor Ritual",
+  "skill.eclipse.cultistas_pequeno_ritual.description": "Grants a generic temporary benefit. The effect is not yet implemented.",
+
+  "skill.eclipse.cultistas_sacrificio.name": "Sacrifice",
+  "skill.eclipse.cultistas_sacrificio.description": "Sacrifices 5 health to restore 100% of Abyssal Energy or Corruption.",
+
+  "skill.eclipse.cultistas_corrupcao_controlada.name": "Controlled Corruption",
+  "skill.eclipse.cultistas_corrupcao_controlada.description": "Permanently increases the maximum Abyssal Energy or Corruption by 10.",
+
+  "skill.eclipse.cultistas_ritual_de_invocacao.name": "Summoning Ritual",
+  "skill.eclipse.cultistas_ritual_de_invocacao.description": "Costs 15 Corruption and summons 3 empowered zombies for 15s, with 1.5x health and immunity to sunlight. They remain hostile to the player.",
+
+  "skill.eclipse.cultistas_pacto_abissal.name": "Abyssal Pact",
+  "skill.eclipse.cultistas_pacto_abissal.description": "Costs 5 Corruption and grants 3x damage, speed and resistance for 20s.",
+
+  "skill.eclipse.cultistas_ritual_maior.name": "Greater Ritual",
+  "skill.eclipse.cultistas_ritual_maior.description": "A more powerful area ritual. The effect is not yet implemented.",
+
+  "skill.eclipse.cultistas_olho_do_abismo.name": "Eye of the Abyss",
+  "skill.eclipse.cultistas_olho_do_abismo.description": "Allows you to perceive entities, corruption and abyssal phenomena. The effect is not yet implemented.",
+
+  "skill.eclipse.cultistas_invocacao_superior.name": "Superior Summoning",
+  "skill.eclipse.cultistas_invocacao_superior.description": "Costs 45 Corruption and summons 2 Iron Golems for 10s. Allied AI is not yet implemented.",
+
+  "skill.eclipse.cultistas_voz_do_abismo.name": "Voice of the Abyss",
+  "skill.eclipse.cultistas_voz_do_abismo.description": "Manipulates creatures and phenomena of the Abyss. The effect is not yet implemented.",
+
+  "skill.eclipse.cultistas_ritual_do_eclipse.name": "Ritual of the Eclipse",
+  "skill.eclipse.cultistas_ritual_do_eclipse.description": "Consumes the Eclipse Essence in your hand and all Corruption to trigger the Global Eclipse, forcing a storm and keeping the world at night for 15 minutes."
+
+
+
+}

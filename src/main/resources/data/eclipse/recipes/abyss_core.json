@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [ "CC", "CC" ],
+  "key": { "C": { "item": "eclipse:abyss_crystal" } },
+  "result": { "item": "eclipse:abyss_core", "count": 1 }
+}

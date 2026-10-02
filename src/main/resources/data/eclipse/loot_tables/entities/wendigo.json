@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "eclipse:wendigo_horn",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.70
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "eclipse:corrupted_leather",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "eclipse:abyss_core",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.20
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

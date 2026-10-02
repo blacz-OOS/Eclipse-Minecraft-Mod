@@ -1,0 +1,8 @@
+{
+  "name": "eclipse:abyssal_ruins/entrance",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {"weight": 1, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/entrance_01", "processors": "minecraft:empty", "projection": "rigid"}},
+    {"weight": 1, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/entrance_02", "processors": "minecraft:empty", "projection": "rigid"}}
+  ]
+}

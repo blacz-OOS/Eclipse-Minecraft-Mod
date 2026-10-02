@@ -16,6 +16,8 @@ import net.minecraft.network.datasync.DataSerializers;
 import net.minecraft.network.datasync.EntityDataManager;
 import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.world.World;
+import net.minecraft.world.server.ServerWorld;
+import com.soldierskull.eclipse.particle.ModParticleTypes;
 
 import java.util.EnumSet;
 
@@ -206,6 +208,44 @@ public class VoidObserverEntity extends MonsterEntity implements ISupernaturalMo
             bolt.shoot(dx, dy, dz, 1.2F, 1.0F);
             mob.level.addFreshEntity(bolt);
             mob.playSound(net.minecraft.util.SoundEvents.ILLUSIONER_CAST_SPELL, 1.0F, 1.0F);
+
+            // efeito visual do laser - feixe de particulas do Void Observer ate o alvo,
+            // gerado so neste instante do disparo (nunca a cada tick)
+            spawnLaserBeam(mob.level,
+                    new Vector3d(mob.getX(), bolt.getY(), mob.getZ()),
+                    new Vector3d(target.getX(), target.getY(0.5), target.getZ()));
+        }
+
+        /**
+         * Gera uma sequencia de particulas de laser em linha reta entre "from"
+         * e "to", com pequeno espacamento entre elas, formando visualmente um
+         * feixe continuo. So e chamada no instante do tiro (dentro de shoot()),
+         * entao nao tem custo nenhum enquanto o Void Observer nao esta atacando.
+         */
+        private static void spawnLaserBeam(World world, Vector3d from, Vector3d to) {
+            if (!(world instanceof ServerWorld)) return;
+            ServerWorld serverWorld = (ServerWorld) world;
+
+            double dx = to.x - from.x;
+            double dy = to.y - from.y;
+            double dz = to.z - from.z;
+            double distance = Math.sqrt(dx * dx + dy * dy + dz * dz);
+            if (distance < 0.0001D) return;
+
+            double spacing = 0.35D; // espacamento entre particulas do feixe
+            int steps = Math.max(1, (int) Math.ceil(distance / spacing));
+
+            for (int i = 0; i <= steps; i++) {
+                double t = (double) i / steps;
+                double px = from.x + dx * t;
+                double py = from.y + dy * t;
+                double pz = from.z + dz * t;
+
+                // count = 0 manda exatamente 1 particula parada (sem espalhamento
+                // aleatorio) na posicao exata - e assim que o vanilla envia uma
+                // particula precisa em vez de uma nuvem
+                serverWorld.sendParticles(ModParticleTypes.LASER.get(), px, py, pz, 0, 0.0D, 0.0D, 0.0D, 0.0D);
+            }
         }
     }
 }

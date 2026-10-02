@@ -1,0 +1,8 @@
+{
+  "name": "eclipse:abyssal_ruins/special",
+  "fallback": "eclipse:abyssal_ruins/final",
+  "elements": [
+    {"weight": 2, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/abyss_chamber_01", "processors": "minecraft:empty", "projection": "rigid"}},
+    {"weight": 1, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/corridor_straight_01", "processors": "minecraft:empty", "projection": "rigid"}}
+  ]
+}

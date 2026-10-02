@@ -1,0 +1,7 @@
+{
+  "name": "eclipse:abyssal_ruins/final",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {"weight": 1, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/final_chamber_01", "processors": "minecraft:empty", "projection": "rigid"}}
+  ]
+}

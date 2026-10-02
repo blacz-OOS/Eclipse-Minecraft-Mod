@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [ "DD", "DD" ],
+  "key": { "D": { "item": "eclipse:abyss_dust" } },
+  "result": { "item": "eclipse:abyss_crystal", "count": 1 }
+}

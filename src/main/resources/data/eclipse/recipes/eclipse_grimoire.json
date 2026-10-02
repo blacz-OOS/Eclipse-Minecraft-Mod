@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:book" },
+    { "item": "eclipse:abyss_shard" }
+  ],
+  "result": { "item": "eclipse:eclipse_grimoire", "count": 1 }
+}

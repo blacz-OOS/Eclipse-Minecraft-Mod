@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "eclipse:eclipse_crystal" },
+    { "item": "eclipse:abyss_core" }
+  ],
+  "result": { "item": "eclipse:eclipse_essence", "count": 1 }
+}

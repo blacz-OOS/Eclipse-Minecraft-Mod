@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "side": "eclipse:block/abyssal_pillar",
+    "end": "eclipse:block/abyssal_pillar_top"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CPC",
+    "C C"
+  ],
+  "key": {
+    "C": { "item": "eclipse:corrupted_leather" },
+    "P": { "item": "eclipse:pure_silver" }
+  },
+  "result": {
+    "item": "eclipse:cultist_mask",
+    "count": 1
+  }
+}

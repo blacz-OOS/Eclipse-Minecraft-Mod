@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [ "CC", "CC" ],
+  "key": { "C": { "item": "eclipse:eclipse_crystal" } },
+  "result": { "item": "eclipse:eclipse_relic", "count": 1 }
+}

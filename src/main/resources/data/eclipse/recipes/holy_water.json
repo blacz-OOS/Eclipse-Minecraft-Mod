@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:glass_bottle" },
+    { "item": "eclipse:pure_silver" }
+  ],
+  "result": {
+    "item": "eclipse:holy_water",
+    "count": 1
+  }
+}

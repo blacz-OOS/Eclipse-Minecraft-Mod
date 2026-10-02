@@ -1,0 +1,14 @@
+{
+  "entity.ghost.ambient": {
+    "category": "hostile",
+    "sounds": ["eclipse:entity/ghost/ambient"]
+  },
+  "entity.ghost.hurt": {
+    "category": "hostile",
+    "sounds": ["eclipse:entity/ghost/hurt"]
+  },
+  "entity.ghost.death": {
+    "category": "hostile",
+    "sounds": ["eclipse:entity/ghost/death"]
+  }
+}

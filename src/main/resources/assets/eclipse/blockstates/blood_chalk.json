@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "mark=0": {
+            "model": "eclipse:block/blood_chalk_sun"
+        },
+        "mark=1": {
+            "model": "eclipse:block/blood_chalk_abyss_signal"
+        },
+        "mark=2": {
+            "model": "eclipse:block/blood_chalk_cross"
+        },
+        "mark=3": {
+            "model": "eclipse:block/blood_chalk_spiral"
+        },
+        "mark=4": {
+            "model": "eclipse:block/blood_chalk_vine"
+        }
+    }
+}

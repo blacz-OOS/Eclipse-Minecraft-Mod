@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "side": "eclipse:block/deadwood_log",
+    "end": "eclipse:block/deadwood_log_top"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [ { "item": "eclipse:abyss_shard" } ],
+  "result": { "item": "eclipse:abyss_dust", "count": 4 }
+}

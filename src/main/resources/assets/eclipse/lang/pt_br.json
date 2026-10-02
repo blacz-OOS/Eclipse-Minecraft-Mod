@@ -1,0 +1,456 @@
+{
+  "item.eclipse.silver": "Prata",
+  "item.eclipse.raw_silver": "Prata Bruta",
+  "item.eclipse.pure_silver": "Prata Pura",
+  "item.eclipse.corrupted_leather": "Couro Corrompido",
+  "item.eclipse.corrupted_bone": "Osso Corrompido",
+  "item.eclipse.abyss_shard": "Fragmento do Abismo",
+  "block.eclipse.deadwood_log": "Tora de Madeira Morta",
+  "block.eclipse.deadwood_planks": "Tábuas de Madeira Morta",
+  "block.eclipse.silver_ore": "Minério de Prata",
+  "item.eclipse.ghost_spawn_egg": "Ovo de Invocação: Fantasma",
+  "itemGroup.EclipseTab": "Eclipse",
+  "key.categories.eclipse": "Eclipse",
+  "key.eclipse.open_status": "Abrir Janela de Status",
+  "key.eclipse.attack_basic": "Ataque Básico (Presas Vampíricas)",
+  "key.eclipse.open_skilltree": "Abrir Árvore de Habilidades",
+  "item.eclipse.silver_sword": "Espada de Prata",
+  "item.eclipse.silver_dagger": "Adaga de Prata",
+  "item.eclipse.holy_water": "Água Benta",
+  "item.eclipse.vampire_blood_bottle": "Garrafa de Sangue Vampírico",
+  "item.eclipse.hunter_special_bow": "Arco Especial do Caçador",
+  "item.eclipse.eclipse_essence": "Essência do Eclipse",
+  "item.eclipse.cultist_mask": "Máscara do Cultista",
+  "advancements.eclipse.root.title": "Eclipse",
+  "advancements.eclipse.root.description": "",
+  "advancements.eclipse.o_corrompido.title": "O Corrompido",
+  "advancements.eclipse.o_corrompido.description": "Complete a transformação sobrenatural sem sair do Abismo nenhuma vez",
+  "item.eclipse.spectral_shroud": "Mortalha Espectral",
+  "item.eclipse.ectoplasmic_dust": "Poeira Ectoplásmico",
+  "item.eclipse.sanguine_gland": "Glândula Sanguínea",
+  "item.eclipse.abyss_dust": "Poeira do Abismo",
+  "item.eclipse.abyss_crystal": "Cristal do Abismo",
+  "item.eclipse.abyss_core": "Núcleo do Abismo",
+  "item.eclipse.eclipse_fragment": "Fragmento do Eclipse",
+  "item.eclipse.eclipse_crystal": "Cristal do Eclipse",
+  "item.eclipse.eclipse_relic": "Relíquia do Eclipse",
+  "item.eclipse.lunar_essence": "Essência Lunar",
+  "item.eclipse.hunter_trap": "Armadilha de Caçador",
+  "item.eclipse.vampire_fang": "Presa de Vampiro",
+  "item.eclipse.vampire_heart": "Coração de Vampiro",
+  "item.eclipse.eclipse_grimoire": "Grimório do Eclipse",
+  "item.eclipse.werewolf_fang": "Presa de Lobisomem",
+  "item.eclipse.werewolf_fur": "Pelo de Lobisomem",
+  "item.eclipse.werewolf_liver": "Fígado de Lobisomem",
+  "item.eclipse.alpha_fang": "Presa Alfa",
+  "item.eclipse.hunter_badge": "Distintivo de Caçador",
+  "item.eclipse.cultist_mark": "Marca do Cultista",
+  "item.eclipse.cultist_idol": "Ídolo do Cultista",
+  "item.eclipse.abyssal_relic": "Relíquia Abissal",
+  "block.eclipse.abyss_crystal": "Cristal do Abismo",
+  "block.eclipse.charged_abyss_crystal": "Cristal do Abismo Carregado",
+  "item.eclipse.abyssal_hand_spawn_egg": "Ovo de Invocação: Mão Abissal",
+  "item.eclipse.blood_worm_spawn_egg": "Ovo de Invocação: Verme de Sangue",
+  "item.eclipse.aether_parasite_spawn_egg": "Ovo de Invocação: Parasita do Éter",
+  "item.eclipse.ash_ghoul_spawn_egg": "Ovo de Invocação: Carniçal de Cinzas",
+  "item.eclipse.void_observer_spawn_egg": "Ovo de Invocação: Observador do Vazio",
+  "item.eclipse.ember_imp_spawn_egg": "Ovo de Invocação: Diabrete de Brasa",
+  "item.eclipse.dry_body_spawn_egg": "Ovo de Invocação: Corpo Seco",
+  "item.eclipse.mist_ghoulin_spawn_egg": "Ovo de Invocação: Carniçal da Névoa",
+  "item.eclipse.corrupted_saci_spawn_egg": "Ovo de Invocação: Saci Corrompido",
+  "item.eclipse.sulfur_hound_spawn_egg": "Ovo de Invocação: Cão de Enxofre",
+  "item.eclipse.forest_specter_spawn_egg": "Ovo de Invocação: Espectro da Floresta",
+  "item.eclipse.mapinguari_spawn_egg": "Ovo de Invocação: Mapinguari",
+  "item.eclipse.wendigo_spawn_egg": "Ovo de Invocação: Wendigo",
+  "item.eclipse.mapinguari_tongue": "Língua de Mapinguari",
+  "item.eclipse.wendigo_horn": "Chifre de Wendigo",
+  "entity.eclipse.ghost": "Fantasma",
+  "entity.eclipse.abyssal_hand": "Mão Abissal",
+  "entity.eclipse.blood_worm": "Verme de Sangue",
+  "entity.eclipse.aether_parasite": "Parasita do Éter",
+  "entity.eclipse.ash_ghoul": "Carniçal de Cinzas",
+  "entity.eclipse.void_observer": "Observador do Vazio",
+  "entity.eclipse.void_bolt": "Raio do Vazio",
+  "entity.eclipse.ember_imp": "Diabrete de Brasa",
+  "entity.eclipse.dry_body": "Corpo Seco",
+  "entity.eclipse.mist_ghoulin": "Carniçal da Névoa",
+  "entity.eclipse.corrupted_saci": "Saci Corrompido",
+  "entity.eclipse.sulfur_hound": "Cão de Enxofre",
+  "entity.eclipse.forest_specter": "Espectro da Floresta",
+  "entity.eclipse.mapinguari": "Mapinguari",
+  "entity.eclipse.wendigo": "Wendigo",
+  "entity.eclipse.hunter_npc": "Caçador",
+  "entity.eclipse.cultist_npc": "Cultista",
+  "item.eclipse.hunter_npc_spawn_egg": "Ovo de Invocação: Caçador",
+  "item.eclipse.cultist_npc_spawn_egg": "Ovo de Invocação: Cultista",
+  "block.eclipse.altar": "Altar",
+  "block.eclipse.ritual_chalk": "Giz Ritualístico",
+  "block.eclipse.blood_chalk": "Giz de Sangue",
+  "block.eclipse.blood_altar": "Altar de Sangue",
+  "block.eclipse.moon_altar": "Altar da Lua",
+  "block.eclipse.moon_altar_stone": "Pedra do Altar da Lua",
+  "block.eclipse.abyss_altar_core": "Núcleo do Altar do Abismo",
+  "block.eclipse.abyssal_pillar": "Pilar Abissal",
+  "block.eclipse.abyssal_rune": "Runa Abissal",
+  "block.eclipse.abyssal_ruin_foundation": "Fundação das Ruínas Abissais",
+  "block.eclipse.trap": "Armadilha",
+
+  "hud.eclipse.health": "Vida",
+  "hud.eclipse.corruption": "Corrupção",
+  "hud.eclipse.energy": "Energia",
+
+  "gui.eclipse.statstitle": "Estatísticas",
+  "gui.eclipse.button.convert": "Conv.",
+  "gui.eclipse.stat.level": "Nível: %s",
+  "gui.eclipse.stat.race": "Raça: %s",
+  "gui.eclipse.stat.faction": "Facção: %s",
+
+  "faction.eclipse.none": "Nenhuma",
+  "faction.eclipse.hunters": "Caçadores",
+  "faction.eclipse.cultists": "Cultistas",
+
+  "race.eclipse.human": "Humano",
+  "race.eclipse.vampire": "Vampiro",
+  "race.eclipse.werewolf": "Lobisomem",
+
+
+  "gui.eclipse.stat.xp": "XP: %s/%s (%s%%)",
+  "gui.eclipse.stat.hp": "HP",
+  "gui.eclipse.stat.strength": "Força",
+  "gui.eclipse.stat.defense": "Defesa",
+  "gui.eclipse.stat.speed": "Velocidade",
+  "gui.eclipse.stat.constitution": "Constituição",
+  "gui.eclipse.stat.energy": "Energia",
+  "gui.eclipse.stat.points": "Pontos: %s",
+  "gui.eclipse.stat.common_energy": "Energia",
+  "gui.eclipse.stat.corruption": "Corrupção",
+  "gui.eclipse.header.affinities": "Afinidades",
+  "gui.eclipse.header.reputations": "Reputações",
+
+
+  "affinity.eclipse.vampiric": "Vampírica",
+  "affinity.eclipse.lupine": "Lupina",
+
+  "reputation.eclipse.hunters": "Caçadores",
+  "reputation.eclipse.cultists": "Cultistas",
+  "reputation.eclipse.vampires": "Vampiros",
+  "reputation.eclipse.werewolfs": "Lobisomens",
+
+
+
+  "gui.eclipse.skill_tree.title": "Árvore de Habilidades",
+  "gui.eclipse.skill_tree.race": "Raça",
+  "gui.eclipse.skill_tree.faction": "Facção",
+  "gui.eclipse.skill_tree.available_points": "Pontos disponíveis: %s",
+
+  "skill.eclipse.required_level": "Nível necessário",
+  "skill.eclipse.cost": "Custo: ",
+  "skill.eclipse.requires": "Requer",
+  "skill.eclipse.unknown_prerequisite": "Desconhecido: %s",
+  "skill.eclipse.prerequisite_locked": "(falta)",
+  "skill.eclipse.cooldown": "Recarga",
+  "skill.eclipse.energy": "Energia",
+  "skill.eclipse.on_cooldown": "Em cooldown",
+  "skill.eclipse.unlocked": "Desbloqueada",
+
+
+
+
+
+
+  "message.eclipse.quest.delivered": "§aMissão entregue: %s",
+  "message.eclipse.quest.accepted": "§aNova missão: %s - %s",
+  "message.eclipse.quest.status_header": "§e[Status da Missão] %s:",
+  "message.eclipse.quest.progress_kill": "§7 - %s: %d/%d mortos",
+  "message.eclipse.quest.progress_collect": "§7 - %s: %d/%d coletados",
+  "message.eclipse.quest.book.empty": "§7Nada de novo nas páginas por enquanto.",
+  "message.eclipse.quest.book.known_rituals": "§7Rituais conhecidos:",
+  "message.eclipse.quest.book.none_registered": "nenhum registrado ainda.",
+  "dialogue.eclipse.quest.option.deliver": "[Entregar] %s",
+  "dialogue.eclipse.quest.option.in_progress": "[Em andamento] %s",
+  "dialogue.eclipse.quest.option.accept": "[Aceitar] %s",
+  "dialogue.eclipse.cultist.who_option": "Quem são os Cultistas?",
+  "dialogue.eclipse.cultist.who_response": "§7Servimos ao Abismo. O que os outros temem, nós buscamos entender - e usar.",
+  "dialogue.eclipse.cultist.reputation_option": "Minha reputação com os Cultistas",
+  "dialogue.eclipse.cultist.reputation_response": "§7Reputação: %d/100",
+  "dialogue.eclipse.cultist.rites_option": "Ritos e ofertas (em breve)",
+  "dialogue.eclipse.cultist.rites_response": "§7Nada a oferecer por enquanto.",
+  "dialogue.eclipse.cultist.no_quest": "Nenhum rito disponível agora.",
+  "dialogue.eclipse.cultist.no_quest_response": "§7Retorne quando estiver pronto para servir ao Abismo.",
+  "dialogue.eclipse.hunter.who_option": "Quem são os Caçadores?",
+  "dialogue.eclipse.hunter.who_response": "§7Caçamos o que se esconde na noite - prata, água benta e disciplina contra o sobrenatural.",
+  "dialogue.eclipse.hunter.reputation_option": "Minha reputação com os Caçadores",
+  "dialogue.eclipse.hunter.reputation_response": "§7Reputação: %d/100",
+  "dialogue.eclipse.hunter.shop_option": "Comprar equipamento (em breve)",
+  "dialogue.eclipse.hunter.shop_response": "§7Ainda não tenho nada pra vender.",
+  "dialogue.eclipse.hunter.no_quest": "Nenhuma missão disponível agora.",
+  "dialogue.eclipse.hunter.no_quest_response": "§7Mantenha-se vigilante. A noite é cheia de perigos.",
+  "quest.eclipse.cacadores_primeira_cacada.title": "Primeira Caçada",
+  "quest.eclipse.cacadores_primeira_cacada.desc": "Prove seu valor: elimine 5 zumbis.",
+  "quest.eclipse.cacadores_primeira_cacada.obj.0": "Eliminar 5 Zumbis",
+  "quest.eclipse.cacadores_cacada_sobrenatural.title": "Rastros no Pântano",
+  "quest.eclipse.cacadores_cacada_sobrenatural.desc": "Um Dry Body foi visto perambulando por perto. Elimine-o.",
+  "quest.eclipse.cacadores_cacada_sobrenatural.obj.0": "Eliminar 1 Dry Body",
+  "quest.eclipse.cacadores_entrega_prata.title": "Suprindo o Arsenal",
+  "quest.eclipse.cacadores_entrega_prata.desc": "Entregue prata pura para reforçar as armas da guarnição.",
+  "quest.eclipse.cacadores_entrega_prata.obj.0": "Entregar 4 Prata Pura",
+  "quest.eclipse.vampiro_sede_inicial.title": "Sede Inicial",
+  "quest.eclipse.vampiro_sede_inicial.desc": "Um Vampiro recém-desperto precisa se alimentar - elimine 3 aranhas.",
+  "quest.eclipse.vampiro_sede_inicial.obj.0": "Eliminar 3 Aranhas",
+  "quest.eclipse.lobisomem_primeira_presa.title": "Primeira Presa",
+  "quest.eclipse.lobisomem_primeira_presa.desc": "O instinto de caça desperta - elimine 3 esqueletos.",
+  "quest.eclipse.lobisomem_primeira_presa.obj.0": "Eliminar 3 Esqueletos",
+  "quest.eclipse.cultistas_primeiro_sacrificio.title": "Primeiro Sacrifício",
+  "quest.eclipse.cultistas_primeiro_sacrificio.desc": "Entregue 1 Osso Corrompido como oferenda.",
+  "quest.eclipse.cultistas_primeiro_sacrificio.obj.0": "Entregar 1 Osso Corrompido",
+
+  "grimoire.eclipse.cover.1": "§c§lGRIMÓRIO DO ECLIPSE\n \n§0REGISTRO DE OBSERVAÇÕES SOBRE O SOBRENATURAL",
+  "grimoire.eclipse.cover.2": "§0Este tomo reúne observações sobre o §5Abismo§0, suas manifestações e as principais linhagens sobrenaturais encontradas no mundo conhecido.\n§8Nota do autor: §0Os registros foram compilados a partir de relatos, experimentos, confrontos e observações \n",
+  "grimoire.eclipse.cover.3": "de campo. Algumas conclusões permanecem provisórias. §0A distinção entre fenômeno sobrenatural, organismo e entidade ainda não é satisfatória. Em muitos casos, o mesmo princípio parece produzir manifestações",
+
+  "grimoire.eclipse.index.1": "de naturezas completamente diferentes.\n\n§0§lÍNDICE\n§cI. Vampirismo\n§6II. Caminho do Lobo\n§3III. Ordem da Prata\n§5IV. Culto do Abismo\n§2V. Bestiário\n§4VI. O Eclipse\n§4VII. Rituais e Altares\n§5VIII. O Abismo\n§6IX. Habilidades",
+  "grimoire.eclipse.vampire.1.1": "§7X. A Forja de Prata\n§4XI. Comandos\n \n§c§lI. VAMPIRISMO\n§0O vampirismo aparenta ser uma condição transmissível de natureza hemática.\nA infecção pode ocorrer após uma mordida de §cVampiro§0 ou pela ingestão de §cSangue Corrompido§0.",
+  "grimoire.eclipse.vampire.1.2": "§0A transformação completa requer exatamente §c3 dias no total§0.\n§8Nota do autor: §0A progressão observada não corresponde a uma simples doença. Alterações fisiológicas surgem antes da transformação completa, indicando",
+
+  "grimoire.eclipse.vampire.2.1": "uma reestruturação gradual do organismo. \n§c§lVAMPIRO: VANTAGENS\n§4✦ Atributos§0\nForça e Velocidade são passivamente amplificadas.\n§4✦ Sentidos§0\nA capacidade visual em ambientes escuros é significativamente",
+  "grimoire.eclipse.vampire.2.2": "§0aprimorada, produzindo efeitos semelhante à Visão Noturna.\n§4✦ Imunidade§0\nVenenos comuns apresentam pouca ou nenhuma eficácia.\n§c§lVAMPIRO: SANGUE E FRAQUEZAS\n§0O sangue parece exercer função ",
+
+  "grimoire.eclipse.vampire.3.1": "§0essencial na manutenção da condição vampírica. \n \nPara drenar uma criatura:\nAgache-se e clique com o botão direito, mantendo a mão vazia.\n\n§4§lFRAQUEZAS FATAIS§0\n\nA luz solar provoca combustão ",
+  "grimoire.eclipse.vampire.3.2": "progressiva.\nAtaques de §7Prata§0 causam §c3×§0 o dano normal.\n§8Nota do autor: §0A vulnerabilidade à prata é particularmente consistente. Diferentemente de outras fraquezas atribuídas aos vampiros em relatos populares, ",
+
+  "grimoire.eclipse.werewolf.1.1": "esta pode ser reproduzida de maneira confiável.\n§6§lII. CAMINHO DO LOBO\n§0A licantropia pode ser contraída após sobreviver ao ataque de um §6Alfa§0.\nA transformação manifesta-se de forma forçada durante as noites de §6Lua Cheia§0.",
+  "grimoire.eclipse.werewolf.2.1": "§6§lLOBISOMEM: VANTAGENS\n§6✦ Regeneração§0\nA recuperação de ferimentos é acelerada, inclusive durante combate.\n§6✦ Garras§0\n§0A transformação produz armas naturais capazes de causar elevado dano desarmado.",
+  "grimoire.eclipse.werewolf.2.2": "§6✦ Agilidade§0\nSaltos e velocidade de corrida são superiores aos de um humano comum.\n§6§lLOBISOMEM: FRAQUEZAS\n§6✦ Vulnerabilidades§0\nFome acelerada.\nSensibilidade à §1Água Benta§0 e à §7Prata§0.",
+  "grimoire.eclipse.werewolf.3.1": "§8Nota do autor: §0Entre as criaturas estudadas, os lobisomens apresentam uma das relações mais evidentes entre fisiologia alterada e comportamento predatório.",
+
+  "grimoire.eclipse.hunters.1.1": "§3§lIII. ORDEM DA PRATA\n§0A Ordem dos Caçadores é formada por humanos que rejeitam ou combatem as manifestações sobrenaturais.\nA Ordem acumulou conhecimento sobre criaturas anômalas através de sucessivas gerações ",
+  "grimoire.eclipse.hunters.1.2": "de caça e experimentação.\n§3§lINGRESSO NA ORDEM\n§0Entregue §75 Pratas Puras§0 ao Mestre da Caçada, presente na Guarnição.\n§8Nota do autor: §0A Ordem parece tratar a prata não só como arma mas como material de estudo. ",
+  "grimoire.eclipse.hunters.2.1": "Sua experiência supera, em alguns casos, qualquer explicação conhecida.\n§3§lCAÇADORES: ARSENAL I\n\n§7✦ Espada de Prata§0\nInterfere na regeneração natural de monstros.\n\n§6✦ Besta de Estaca§0\nProduz dano crítico contra vampiros.",
+  "grimoire.eclipse.hunters.2.2": "§3§lCAÇADORES: ARSENAL II\n\n§1✦ Água Benta§0\nCria uma área de purificação capaz de ferir mortos-vivos.\n\n§8✦ Armadilha de Urso§0\nImobiliza o alvo e aplica Lentidão III.",
+
+  "grimoire.eclipse.cultists.1.1": "§5§lIV. CULTO DO ABISMO\n§0O Culto do Abismo dedica-se à manipulação de forças consideradas incompatíveis com as leis naturais conhecidas.\nSeus métodos incluem magia negra, invocação e sacrifício.",
+  "grimoire.eclipse.cultists.1.2": "§5§lREQUISITOS\n§0Vista o conjunto completo do §5Manto do Cultista§0 e leia o §5Tomo das Sombras§0.\n§5§lCULTISTAS: SACRIFÍCIOS§0\nUtilize o §5Altar Profano§0 para sacrificar criaturas passivas e obter favor das sombras.",
+  "grimoire.eclipse.cultists.2.1": "§c§lAdvertência:§0\nVocê perderá toda reputação com a §3Ordem dos Caçadores§0.\n§8Nota do autor: §0Não consegui determinar se o chamado “favor das sombras” constitui uma forma de energia mensurável",
+
+  "grimoire.eclipse.bestiary.1.1": "§2§lV. BESTIÁRIO\n§0A classificação abaixo foi organizada por origem aparente e comportamento observado.\nA designação de algumas criaturas permanece provisória.",
+  "grimoire.eclipse.bestiary.1.2": "§2§lBESTIÁRIO: TERRESTRE\n§2✦ Carniçal das cinzas§0\nCadáver de natureza anômala associado a cinzas e regiões de intensa atividade térmica.\nApresenta sinais de degradação avançada.",
+  "grimoire.eclipse.bestiary.1.3": "§c✦ Verme de sangue§0\nParasita cavernoso especializado em drenar a vitalidade de organismos vivos.\n§8Registro obtido: §cGlândula Sanguínea§0.\n§2✦ Corpo seco§0\nCadáver humano severamente desidratado.",
+  "grimoire.eclipse.bestiary.1.4": "§0Demonstra resistência incomum ao fogo.\n§8Registro obtido: §0Osso Corrompido§0.\n§2✦ Mapinguari§0\nGrande criatura de origem desconhecida, associada principalmente a regiões florestais.",
+  "grimoire.eclipse.bestiary.1.5": "§0Relatos descrevem comportamento territorial e elevada agressividade.\n§2✦ Carniçal da névoa§0\nPredador frequentemente encontrado em áreas cobertas por névoa.\nSeu comportamento favorece aproximações discretas.",
+  "grimoire.eclipse.bestiary.1.6": "§2✦ Cão de enxofre§0\nCanídeo de natureza anômala associado a compostos sulfúricos e ambientes de elevada atividade térmica.\n§4✦ Wendigo§0\nCriatura humanoide de grande porte associada a regiões de frio extremo.",
+  "grimoire.eclipse.bestiary.1.7": "§0É encontrada principalmente em biomas gelados e florestas nevadas.\n§8Registro obtido: §4Chifre de Wendigo§0.\n§8Nota do autor: §0A presença de criaturas semelhantes a figuras de antigas tradições e lendas é recorrente demais para ser ignorada.",
+  "grimoire.eclipse.bestiary.2.1": "§0Ainda não se sabe se essas lendas foram originadas por encontros reais ou se o Abismo simplesmente reproduz conceitos já existentes.",
+  "grimoire.eclipse.bestiary.2.2": "§2§lBESTIÁRIO: ETÉREO\n§3✦ Espectro da floresta§0\nespectro associado a florestas.\nSem dados o suficiente para detalhar efeitos.\n§8Registro obtido: §3Poeira Ectoplásmica§0.",
+  "grimoire.eclipse.bestiary.2.3": "§5✦ Fantasma§0\nEntidade incorpórea resistente à maioria das agressões físicas convencionais.\nA §7Prata§0 demonstra eficácia excepcional contra sua manifestação.",
+  "grimoire.eclipse.bestiary.3.1": "§8Registro obtido: §7Mortalha Espectral§0.\n§8Nota do autor: §0Fantasmas desafiam qualquer classificação puramente biológica. Não está claro se observamos um organismo, um resíduo de consciência ou uma manifestação independente.",
+  "grimoire.eclipse.bestiary.3.2": "§2§lBESTIÁRIO: ABISSAL\n§5✦ Mão abissal§0\nManifestação de origem desconhecida, identificada por sua anatomia extremamente incomum.\nSua forma sugere a possibilidade de constituir apenas uma extensão de uma entidade maior.",
+  "grimoire.eclipse.bestiary.3.3": "§5✦ Parasita aether§0\nOrganismo parasitário de estrutura anômala.\nSua relação com fontes de energia permanece inconclusiva.",
+  "grimoire.eclipse.bestiary.3.4": "§5✦ Saci corrompido§0\nEntidade corrompida associada a manifestações sobrenaturais de origem aparentemente folclórica.\nSua natureza sugere contato ou influência do Abismo.\nDemontra um certo senso de humor distorcido.",
+  "grimoire.eclipse.bestiary.3.5": "§6✦ Imp de chamas§0\nPequena entidade de natureza ígnea.\nApresenta forte associação com calor e combustão.\n§5✦ Observador do Abismo§0\nEntidade abissal capaz de disparar feixes concentrados de energia.",
+  "grimoire.eclipse.bestiary.3.6": "§8Nota do autor: §0As criaturas classificadas como abissais apresentam o maior grau de irregularidade anatômica. Algumas sequer parecem obedecer à distinção comum entre matéria e energia.",
+
+  "grimoire.eclipse.eclipse.1.1": "§4§lVI. O ECLIPSE\n§0O Eclipse é um fenômeno de ocorrência extraordinária associado ao enfraquecimento da separação entre o mundo conhecido e o §5Abismo§0.\nDurante sua manifestação,",
+  "grimoire.eclipse.eclipse.1.2": "§0alterações ambientais e sobrenaturais tornam-se significativamente mais frequentes.\nO céu adquire coloração anormal, a escuridão se intensifica e manifestações abissais tornam-se possíveis.",
+  "grimoire.eclipse.eclipse.1.3": "§8Nota do autor: §0Não considero o Eclipse uma simples alteração astronômica. A coincidência entre o fenômeno e o aumento das manifestações abissais é estatisticamente difícil de ignorar.",
+
+  "grimoire.eclipse.rituals.1.1": "§4§lVII. RITUAIS E ALTARES\n§4✦ ALTAR DE SANGUE§0\nEstrutura composta por §8Tijolos de Sangue§0, com uma bacia central.\nUtilize uma §cAdaga§0 para converter XP em Frascos de Vida Extra.",
+  "grimoire.eclipse.rituals.1.2": "§8Nota do autor: §0A conversão de experiência em matéria funcional permanece sem explicação satisfatória. O processo aparenta utilizar sangue como intermediário.",
+  "grimoire.eclipse.rituals.2.1": "§4§lALTARES:\n\n§3✦ ALTAR DA LUA§0\nConstruído com:\n4 Pilares de Quartzo\n§01 Laje de Prata\nQuando exposto ao luar, o altar transforma Prata em §3Prata Abençoada§0.\n",
+  "grimoire.eclipse.rituals.2.2": "§8Nota do autor: §0A reação não ocorre simplesmente pela presença da Lua. O altar parece atuar como um mecanismo de concentração ou modificação da energia lunar.",
+  "grimoire.eclipse.rituals.3.1": "§5§lPORTAL DO ABISMO\n§0§lPROCEDIMENTO§0\n1. Posicione o §5Núcleo do Altar§0 no centro.\n2. Desenhe um círculo 3×3 utilizando §5Giz Ritualístico§0.\n§8Nota do autor: §0Essa informação está incompleta e inconclusiva até o momento.",
+
+  "grimoire.eclipse.abyss.1.1": "§5§lVIII. O ABISMO\n§0Uma dimensão fragmentada, suspensa em um vazio aparentemente eterno.\nSua geografia é instável e suas propriedades físicas diferem significativamente das observadas no mundo conhecido.",
+  "grimoire.eclipse.abyss.1.2": "§0O ar é altamente tóxico.\nA sobrevivência exige a §5Máscara do Cultista§0 ou uma fisiologia monstruosa capaz de suportar o ambiente.\nCamas explodem violentamente.",
+  "grimoire.eclipse.abyss.2.1": "§5§lO ABISMO: PERIGOS E RECURSOS\n§0Nas regiões mais profundas pode ser encontrado o raro minério de §5Tenebrium§0.\n§8Nota do autor: §0O Abismo parece menos um lugar natural e mais uma estrutura incompleta.",
+  "grimoire.eclipse.abyss.2.2": "§0Fragmentos de ambiente existem lado a lado sem obedecer à lógica geográfica convencional.\n§6§lIX. HABILIDADES E XP\n§0Pressione §6[K]§0 para abrir os status.",
+
+  "grimoire.eclipse.skills.1": "§0Ganhe §6Pontos§0 eliminando mobs rivais ou cumprindo missões.\n§6§lHABILIDADES NOTÁVEIS\n§6✦ Forma de Morcego§0\nPermite voo temporário por 15 segundos.",
+  "grimoire.eclipse.skills.2": "§6✦ Uivo de Guerra§0\nConcede Força II ao grupo.\n§3✦ Maestria em Prata§0\nConcede +30% de dano e durabilidade relacionados à prata.\n§8Nota do autor: §0A origem dos Pontos permanece desconhecida.",
+  "grimoire.eclipse.skills.3": "§0Contudo, sua obtenção está claramente vinculada à experiência acumulada por meio de conflito e sobrevivência.\n§7§lX. A FORJA DE PRATA\n§0A prata comum possui resistência insuficiente para aplicações de combate avançado.",
+
+  "grimoire.eclipse.silver_forge.1": "§0A Forja do Caçador permite submetê-la a um processo de purificação.\n§7§lPROCEDIMENTO§0\nFunda Prata na Forja do Caçador utilizando §6Pó de Blaze§0 para sintetizar §7Prata Pura§0.",
+  "grimoire.eclipse.silver_forge.2": "§8Nota do autor: §0O resultado não é apenas uma prata mais resistente. Sua eficácia contra determinadas criaturas sugere uma alteração nas propriedades fundamentais do material.",
+
+  "grimoire.eclipse.commands.1": "§4§lXI. COMANDOS ÚTEIS\n§3/eclipse stats§0\nMostra seu nível e sede.\n§3/eclipse fac reset§0\nReseta sua facção. Custo: 30 XP.",
+  "grimoire.eclipse.final.1": "§4§lNOTA FINAL DO AUTOR I\n§0Grande parte do que está registrado neste tomo permanece incompleta. §0As criaturas podem ser observadas. Os rituais podem ser repetidos. Os efeitos podem ser medidos.",
+
+  "grimoire.eclipse.final.2": "Mas a origem de tudo isso permanece obscura.\n \n§4NOTA FINAL DO AUTOR II: §0Há uma hipótese que não consegui eliminar após anos de investigação: talvez estejamos cometendo o erro de estudar o Abismo como um lugar.",
+  "grimoire.eclipse.final.3": "Talvez ele seja um processo. §0E, se essa hipótese estiver correta, as criaturas, os rituais e até mesmo o Eclipse podem ser apenas sintomas de algo muito maior.",
+
+
+  "skill.eclipse.vampiro_sentidos_vampiricos.name": "Sentidos Vampíricos",
+  "skill.eclipse.vampiro_sentidos_vampiricos.description": "Marca sobrenaturais próximos (16 blocos) com uma partícula acima da cabeça, visível apenas para você; identifica o tipo na barra de ação ao mirar.",
+
+  "skill.eclipse.vampiro_presas_vampiricas.name": "Presas Vampíricas",
+  "skill.eclipse.vampiro_presas_vampiricas.description": "Morde o alvo mirado: causa 2 de dano e cura 0,5 HP + 0,5 Energia.",
+
+  "skill.eclipse.vampiro_visao_noturna.name": "Visão Noturna",
+  "skill.eclipse.vampiro_visao_noturna.description": "Concede visão noturna enquanto você for um vampiro.",
+
+  "skill.eclipse.vampiro_regeneracao_sanguinea.name": "Regeneração Sanguínea",
+  "skill.eclipse.vampiro_regeneracao_sanguinea.description": "Dobra a cura da Garrafa de Sangue Vampírico. A mordida das Presas Vampíricas já possui sua própria cura.",
+
+  "skill.eclipse.vampiro_velocidade_predatoria.name": "Velocidade Predatória",
+  "skill.eclipse.vampiro_velocidade_predatoria.description": "Aumenta a velocidade de movimento em 1,8x.",
+
+  "skill.eclipse.vampiro_passo_sombrio.name": "Passo Sombrio",
+  "skill.eclipse.vampiro_passo_sombrio.description": "Realiza uma investida rápida de aproximadamente 3 blocos. Atravessar blocos durante o uso ainda não foi implementado.",
+
+  "skill.eclipse.vampiro_fome_de_sangue.name": "Fome de Sangue",
+  "skill.eclipse.vampiro_fome_de_sangue.description": "Por 15s, aumenta dano, velocidade e resistência em 2x. O custo de fome vampírica ainda não foi implementado.",
+
+  "skill.eclipse.vampiro_sangue_espesso.name": "Sangue Espesso",
+  "skill.eclipse.vampiro_sangue_espesso.description": "Reduz o dano recebido em 1/3.",
+
+  "skill.eclipse.vampiro_flecha_de_sangue.name": "Flecha de Sangue",
+  "skill.eclipse.vampiro_flecha_de_sangue.description": "Ataque à distância de até 12 blocos que causa 3 de dano.",
+
+  "skill.eclipse.vampiro_dominacao_sanguinea.name": "Dominação Sanguínea",
+  "skill.eclipse.vampiro_dominacao_sanguinea.description": "Afeta uma área de 7x7 por 10s, aplicando efeitos simplificados de acordo com o tipo de criatura. Não afeta bosses.",
+
+  "skill.eclipse.vampiro_forma_de_nevoa.name": "Forma de Névoa",
+  "skill.eclipse.vampiro_forma_de_nevoa.description": "Por 5s, atravessa blocos e criaturas, não recebe dano e causa 2,5 de dano a cada mob atravessado.",
+
+  "skill.eclipse.vampiro_regeneracao_superior.name": "Regeneração Superior",
+  "skill.eclipse.vampiro_regeneracao_superior.description": "Dobra novamente a cura da Garrafa de Sangue Vampírico. A condição de fome cheia ainda não foi implementada.",
+
+  "skill.eclipse.vampiro_hipnose.name": "Hipnose",
+  "skill.eclipse.vampiro_hipnose.description": "Humanoides próximos recebem Lentidão II e Fraqueza I por 5s. Durante esse período, o dano do jogador é multiplicado por 2.",
+
+  "skill.eclipse.vampiro_velocidade_sobrenatural.name": "Velocidade Sobrenatural",
+  "skill.eclipse.vampiro_velocidade_sobrenatural.description": "Por 15s, concede velocidade de movimento multiplicada por 2,5. Salto e velocidade de ataque ainda não foram implementados.",
+
+  "skill.eclipse.vampiro_senhor_do_sangue.name": "Senhor do Sangue",
+  "skill.eclipse.vampiro_senhor_do_sangue.description": "Por 15s, aumenta dano, velocidade e resistência em 3x. A regeneração 3x ainda não foi implementada.",
+
+  "skill.eclipse.vampiro_ascensao_vampirica.name": "Ascensão Vampírica",
+  "skill.eclipse.vampiro_ascensao_vampirica.description": "Por 25s, concede velocidade 4x, resistência 6x e dano 3,5x. Mobs próximos ficam brilhantes. A regeneração 5x ainda não foi implementada.",
+
+
+  "skill.eclipse.lobisomem_instinto_bestial.name": "Instinto Bestial",
+  "skill.eclipse.lobisomem_instinto_bestial.description": "Permite perceber criaturas próximas. O efeito ainda não está implementado e necessita de renderização.",
+
+  "skill.eclipse.lobisomem_garras_bestiais.name": "Garras Bestiais",
+  "skill.eclipse.lobisomem_garras_bestiais.description": "Aumenta o dano de ataques corpo a corpo em 0,5.",
+
+  "skill.eclipse.lobisomem_olfato_predatorio.name": "Olfato Predatório",
+  "skill.eclipse.lobisomem_olfato_predatorio.description": "Cria um rastro de partículas vermelhas em criaturas sobrenaturais em até 10 blocos, mais intenso quanto mais feridas estiverem.",
+
+  "skill.eclipse.lobisomem_forca_bestial.name": "Força Bestial",
+  "skill.eclipse.lobisomem_forca_bestial.description": "Dobra o dano dos ataques.",
+
+  "skill.eclipse.lobisomem_resistencia_bestial.name": "Resistência Bestial",
+  "skill.eclipse.lobisomem_resistencia_bestial.description": "Reduz o dano recebido para 0,75x do valor normal.",
+
+  "skill.eclipse.lobisomem_investida.name": "Investida",
+  "skill.eclipse.lobisomem_investida.description": "Avança 3 blocos, causa 1 de dano e empurra o alvo em 2,5 blocos.",
+
+  "skill.eclipse.lobisomem_furia.name": "Fúria",
+  "skill.eclipse.lobisomem_furia.description": "Por 15s, aumenta força, velocidade e resistência em 2x.",
+
+  "skill.eclipse.lobisomem_regeneracao_bestial.name": "Regeneração Bestial",
+  "skill.eclipse.lobisomem_regeneracao_bestial.description": "Cura 1 HP a cada golpe corpo a corpo acertado.",
+
+  "skill.eclipse.lobisomem_rugido_intimidador.name": "Rugido Intimidador",
+  "skill.eclipse.lobisomem_rugido_intimidador.description": "Afeta criaturas em um raio de 7 blocos, aplicando uma forma de paralisia por 2s através de Lentidão extrema.",
+
+  "skill.eclipse.lobisomem_transformacao_parcial.name": "Transformação Parcial",
+  "skill.eclipse.lobisomem_transformacao_parcial.description": "Por 60s, concede força 3x, resistência 2,5x e velocidade 2,5x. O sangramento das garras ainda não foi implementado.",
+
+  "skill.eclipse.lobisomem_salto_predatorio.name": "Salto Predatório",
+  "skill.eclipse.lobisomem_salto_predatorio.description": "Realiza um salto direcionado de aproximadamente 8 a 10 blocos e causa 3 de dano em área ao aterrissar, sem sofrer dano de queda.",
+
+  "skill.eclipse.lobisomem_furia_lunar.name": "Fúria Lunar",
+  "skill.eclipse.lobisomem_furia_lunar.description": "À noite, aplica um multiplicador de dano, velocidade e resistência de acordo com a fase lunar, de 2x na Lua Cheia a 0,5x na Lua Nova. A duração ainda não foi definida.",
+
+  "skill.eclipse.lobisomem_pele_de_ferro.name": "Pele de Ferro",
+  "skill.eclipse.lobisomem_pele_de_ferro.description": "Aumenta a resistência em 2,5x.",
+
+  "skill.eclipse.lobisomem_predador_alfa.name": "Predador Alfa",
+  "skill.eclipse.lobisomem_predador_alfa.description": "Concede dano 3x, velocidade 2x e resistência 2x. Os sentidos e o bônus contra criaturas mais fracas ainda não foram implementados.",
+
+  "skill.eclipse.lobisomem_forma_alfa.name": "Forma Alfa",
+  "skill.eclipse.lobisomem_forma_alfa.description": "Por 60s, concede força 6x, resistência 5x e velocidade 4x. Ataques especiais e rugido aprimorado ainda não foram implementados.",
+
+
+  "skill.eclipse.cacadores_conhecimento_de_monstros.name": "Conhecimento de Monstros",
+  "skill.eclipse.cacadores_conhecimento_de_monstros.description": "Marca sobrenaturais próximos (16 blocos) com uma partícula e identifica o tipo na barra de ação ao mirar.",
+
+  "skill.eclipse.cacadores_treinamento_com_prata.name": "Treinamento com Prata",
+  "skill.eclipse.cacadores_treinamento_com_prata.description": "Concede 25% de dano adicional com armas de prata contra criaturas sobrenaturais.",
+
+  "skill.eclipse.cacadores_rastreador.name": "Rastreador",
+  "skill.eclipse.cacadores_rastreador.description": "Cria um rastro de partículas vermelhas em criaturas sobrenaturais em até 10 blocos.",
+
+  "skill.eclipse.cacadores_golpe_preciso.name": "Golpe Preciso",
+  "skill.eclipse.cacadores_golpe_preciso.description": "O próximo golpe corpo a corpo em até 5s recebe um bônus de dano de +3.",
+
+  "skill.eclipse.cacadores_armadilha_de_cacador.name": "Armadilha de Caçador",
+  "skill.eclipse.cacadores_armadilha_de_cacador.description": "Cria uma marca vermelha no chão que atrai sobrenaturais em até 10 blocos e aplica Lentidão extrema por 5s ao se aproximarem.",
+
+  "skill.eclipse.cacadores_preparacao_alquimica.name": "Preparação Alquímica",
+  "skill.eclipse.cacadores_preparacao_alquimica.description": "Concede 3 Águas Bentas ao desbloquear. A receita de Água Benta permanece disponível para fabricação.",
+
+  "skill.eclipse.cacadores_marca_do_cacador.name": "Marca do Caçador",
+  "skill.eclipse.cacadores_marca_do_cacador.description": "Marca o alvo mirado, aplicando Fraqueza I e Lentidão I por 30s. O ícone visual e o dano adicional ainda não foram implementados.",
+
+  "skill.eclipse.cacadores_armadilha_de_prata.name": "Armadilha de Prata",
+  "skill.eclipse.cacadores_armadilha_de_prata.description": "Utiliza a mesma base da Armadilha de Caçador. O dano extra e os efeitos específicos ainda não foram definidos.",
+
+  "skill.eclipse.cacadores_conhecimento_anatomico.name": "Conhecimento Anatômico",
+  "skill.eclipse.cacadores_conhecimento_anatomico.description": "Aumenta o dano contra criaturas sobrenaturais em 15%.",
+
+  "skill.eclipse.cacadores_municao_especial.name": "Munição Especial",
+  "skill.eclipse.cacadores_municao_especial.description": "Concede o Arco Especial, com 5 de durabilidade. Suas flechas causam +3 de dano contra criaturas sobrenaturais.",
+
+  "skill.eclipse.cacadores_ritual_de_contencao.name": "Ritual de Contenção",
+  "skill.eclipse.cacadores_ritual_de_contencao.description": "Afeta criaturas sobrenaturais em um raio de 5 blocos, aplicando Lentidão II e Fraqueza I por 10s.",
+
+  "skill.eclipse.cacadores_mestre_cacador.name": "Mestre Caçador",
+  "skill.eclipse.cacadores_mestre_cacador.description": "Concede +1 de dano contra sobrenaturais, +1 de eficiência de prata e faz as marcas durarem 2x mais. Alguns efeitos ainda não foram implementados.",
+
+  "skill.eclipse.cacadores_arsenal_do_exterminador.name": "Arsenal do Exterminador",
+  "skill.eclipse.cacadores_arsenal_do_exterminador.description": "Por 30s, concede Força IV e Resistência III. Os bônus adicionais de prata, munição e dano contra sobrenaturais ainda não foram implementados.",
+
+
+  "skill.eclipse.cultistas_conhecimento_proibido.name": "Conhecimento Proibido",
+  "skill.eclipse.cultistas_conhecimento_proibido.description": "Permite interagir com conteúdo oculto. O efeito ainda não foi implementado.",
+
+  "skill.eclipse.cultistas_marca_do_culto.name": "Marca do Culto",
+  "skill.eclipse.cultistas_marca_do_culto.description": "Reconhece símbolos, locais e estruturas do culto. O efeito ainda não foi implementado.",
+
+  "skill.eclipse.cultistas_sussurros_do_abismo.name": "Sussurros do Abismo",
+  "skill.eclipse.cultistas_sussurros_do_abismo.description": "Permite perceber sinais do Abismo. O efeito ainda não foi implementado.",
+
+  "skill.eclipse.cultistas_pequeno_ritual.name": "Pequeno Ritual",
+  "skill.eclipse.cultistas_pequeno_ritual.description": "Concede um benefício temporário genérico. O efeito ainda não foi implementado.",
+
+  "skill.eclipse.cultistas_sacrificio.name": "Sacrifício",
+  "skill.eclipse.cultistas_sacrificio.description": "Sacrifica 5 de vida para recuperar 100% da Energia Abissal ou Corrupção.",
+
+  "skill.eclipse.cultistas_corrupcao_controlada.name": "Corrupção Controlada",
+  "skill.eclipse.cultistas_corrupcao_controlada.description": "Aumenta permanentemente o máximo de Energia Abissal ou Corrupção em 10.",
+
+  "skill.eclipse.cultistas_ritual_de_invocacao.name": "Ritual de Invocação",
+  "skill.eclipse.cultistas_ritual_de_invocacao.description": "Custa 15 de Corrupção e invoca 3 zumbis fortalecidos por 15s, com 1,5x de vida e imunidade ao sol. Eles continuam hostis ao jogador.",
+
+  "skill.eclipse.cultistas_pacto_abissal.name": "Pacto Abissal",
+  "skill.eclipse.cultistas_pacto_abissal.description": "Custa 5 de Corrupção e concede dano, velocidade e resistência 3x por 20s.",
+
+  "skill.eclipse.cultistas_ritual_maior.name": "Ritual Maior",
+  "skill.eclipse.cultistas_ritual_maior.description": "Um ritual de área mais poderoso. O efeito ainda não foi implementado.",
+
+  "skill.eclipse.cultistas_olho_do_abismo.name": "Olho do Abismo",
+  "skill.eclipse.cultistas_olho_do_abismo.description": "Permite perceber entidades, corrupção e fenômenos abissais. O efeito ainda não foi implementado.",
+
+  "skill.eclipse.cultistas_invocacao_superior.name": "Invocação Superior",
+  "skill.eclipse.cultistas_invocacao_superior.description": "Custa 45 de Corrupção e invoca 2 Golems de Ferro por 10s. A IA aliada ainda não foi implementada.",
+
+  "skill.eclipse.cultistas_voz_do_abismo.name": "Voz do Abismo",
+  "skill.eclipse.cultistas_voz_do_abismo.description": "Manipula criaturas e fenômenos do Abismo. O efeito ainda não foi implementado.",
+
+  "skill.eclipse.cultistas_ritual_do_eclipse.name": "Ritual do Eclipse",
+  "skill.eclipse.cultistas_ritual_do_eclipse.description": "Consome a Essência do Eclipse na mão e toda a Corrupção para iniciar o Eclipse Global, forçando uma tempestade e mantendo o mundo à noite por 15 minutos."
+
+
+}

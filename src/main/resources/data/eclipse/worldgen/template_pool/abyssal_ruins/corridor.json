@@ -1,0 +1,18 @@
+{
+  "name": "eclipse:abyssal_ruins/corridor",
+  "fallback": "eclipse:abyssal_ruins/final",
+  "elements": [
+    {"weight": 4, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/corridor_straight_01", "processors": "minecraft:empty", "projection": "rigid"}},
+    {"weight": 3, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/corridor_turn_01", "processors": "minecraft:empty", "projection": "rigid"}},
+    {"weight": 2, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/corridor_t_01", "processors": "minecraft:empty", "projection": "rigid"}},
+    {"weight": 1, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/corridor_cross_01", "processors": "minecraft:empty", "projection": "rigid"}},
+    {"weight": 2, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/room_small_01", "processors": "minecraft:empty", "projection": "rigid"}},
+    {"weight": 1, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/room_loot_01", "processors": "minecraft:empty", "projection": "rigid"}},
+    {"weight": 1, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/room_collapsed_01", "processors": "minecraft:empty", "projection": "rigid"}},
+    {"weight": 1, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/room_mob_01", "processors": "minecraft:empty", "projection": "rigid"}},
+    {"weight": 1, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/library_ruins_01", "processors": "minecraft:empty", "projection": "rigid"}},
+    {"weight": 1, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/ritual_chamber_01", "processors": "minecraft:empty", "projection": "rigid"}},
+    {"weight": 1, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/prison_01", "processors": "minecraft:empty", "projection": "rigid"}},
+    {"weight": 1, "element": {"element_type": "minecraft:single_pool_element", "location": "eclipse:abyssal_ruins/stairs_down_01", "processors": "minecraft:empty", "projection": "rigid"}}
+  ]
+}

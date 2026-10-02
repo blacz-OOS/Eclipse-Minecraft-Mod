@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up":    { "model": "eclipse:block/charged_abyss_crystal" },
+    "facing=down":  { "model": "eclipse:block/charged_abyss_crystal", "x": 180 },
+    "facing=north": { "model": "eclipse:block/charged_abyss_crystal", "x": 90 },
+    "facing=south": { "model": "eclipse:block/charged_abyss_crystal", "x": 90, "y": 180 },
+    "facing=east":  { "model": "eclipse:block/charged_abyss_crystal", "x": 90, "y": 90 },
+    "facing=west":  { "model": "eclipse:block/charged_abyss_crystal", "x": 90, "y": 270 }
+  }
+}

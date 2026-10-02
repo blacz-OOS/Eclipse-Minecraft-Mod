@@ -1,0 +1,97 @@
+{
+    "parent": "block/block",
+    "format_version": "1.9.0",
+    "texture_size": [
+        32,
+        32
+    ],
+    "textures": {
+        "3": "eclipse:block/ritual_chalk_cross",
+        "particle": "eclipse:block/ritual_chalk_cross"
+    },
+    "elements": [
+        {
+            "from": [
+                0,
+                0,
+                0
+            ],
+            "to": [
+                16,
+                0.1,
+                16
+            ],
+            "faces": {
+                "north": {
+                    "uv": [
+                        8,
+                        0,
+                        16,
+                        0.5
+                    ],
+                    "texture": "#3"
+                },
+                "east": {
+                    "uv": [
+                        8,
+                        0.5,
+                        16,
+                        1
+                    ],
+                    "texture": "#3"
+                },
+                "south": {
+                    "uv": [
+                        8,
+                        1,
+                        16,
+                        1.5
+                    ],
+                    "texture": "#3"
+                },
+                "west": {
+                    "uv": [
+                        8,
+                        1.5,
+                        16,
+                        2
+                    ],
+                    "texture": "#3"
+                },
+                "up": {
+                    "uv": [
+                        8,
+                        8,
+                        0,
+                        0
+                    ],
+                    "texture": "#3"
+                },
+                "down": {
+                    "uv": [
+                        8,
+                        8,
+                        0,
+                        16
+                    ],
+                    "texture": "#3"
+                }
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "chalk",
+            "origin": [
+                8,
+                8,
+                8
+            ],
+            "scope": 0,
+            "color": 0,
+            "children": [
+                0
+            ]
+        }
+    ]
+}
