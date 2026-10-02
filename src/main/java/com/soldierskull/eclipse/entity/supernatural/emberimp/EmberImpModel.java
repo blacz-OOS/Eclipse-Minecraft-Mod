@@ -16,6 +16,9 @@ import net.minecraft.util.math.MathHelper;
  */
 public class EmberImpModel extends EntityModel<EmberImpEntity> {
 
+    /** Pose de base dos bracos, esticados pra frente (estilo zumbi). */
+    private static final float ARM_FORWARD_BASE = -1.3F;
+
     private final ModelRenderer all;
     private final ModelRenderer body;
     private final ModelRenderer head;
@@ -127,15 +130,15 @@ public class EmberImpModel extends EntityModel<EmberImpEntity> {
         head.xRot = 0.0F;
         legRight.xRot = 0.0F;
         legLeft.xRot = 0.0F;
-        armRight.xRot = 0.0F;
-        armLeft.xRot = 0.0F;
+        armRight.xRot = ARM_FORWARD_BASE;
+        armLeft.xRot = ARM_FORWARD_BASE;
     }
 
     /** 6.1 IDLE - nunca parado: esfrega maos, olha lados, pequenos saltos. */
     private void animateIdle(float t) {
         head.yRot = MathHelper.sin(t * 0.9F) * 0.3F;
-        armRight.xRot = MathHelper.sin(t * 3.0F) * 0.2F;
-        armLeft.xRot = MathHelper.sin(t * 3.0F + (float) Math.PI) * 0.2F;
+        armRight.xRot += MathHelper.sin(t * 3.0F) * 0.2F;
+        armLeft.xRot += MathHelper.sin(t * 3.0F + (float) Math.PI) * 0.2F;
         body.y = -Math.abs(MathHelper.sin(t * 1.5F)) * 0.5F; // pequenos saltos ocasionais
     }
 
@@ -147,8 +150,8 @@ public class EmberImpModel extends EntityModel<EmberImpEntity> {
         body.y = -hop * 3.0F * limbSwingAmount;
         legRight.xRot = -hop * 0.8F;
         legLeft.xRot = -hop * 0.8F;
-        armRight.xRot = hop * 0.5F;
-        armLeft.xRot = hop * 0.5F;
+        armRight.xRot += hop * 0.5F;
+        armLeft.xRot += hop * 0.5F;
         body.xRot = hop * 0.15F;
     }
 

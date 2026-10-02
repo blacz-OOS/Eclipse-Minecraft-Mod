@@ -5,7 +5,7 @@ import net.minecraft.client.renderer.entity.EntityRendererManager;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.util.ResourceLocation;
 
-/** Modelo real (BloodWormModel) - textura ainda precisa ser criada em textures/entity/blood_worm.png (64x64, conforme texWidth/texHeight do modelo). */
+
 public class BloodWormRenderer extends MobRenderer<BloodWormEntity, BloodWormModel> {
     private static final ResourceLocation TEXTURE = new ResourceLocation(Eclipse.MOD_ID, "textures/entity/blood_worm.png");
 

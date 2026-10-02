@@ -93,33 +93,33 @@ public class AshGhoulModel extends EntityModel<AshGhoulEntity> {
         }
 
         float t = ageInTicks / 20.0F;
-        boolean hasTarget = entity.getTarget() != null;
+        head.yRot = netHeadYaw * 0.017453292F;
 
-        if (entity.isDetectionPulseActive()) {
-            animateDetectionPulse(entity.getDetectionPulseProgress(), netHeadYaw);
-        } else if (hasTarget) {
-            animateChase(limbSwing, limbSwingAmount, netHeadYaw);
+        if (limbSwingAmount > 0.02F) {
+            // WALK/RUN - rapida e irregular, sempre prestes a cair pra frente (mesma do MistGhoulin)
+            legRight.xRot = MathHelper.cos(limbSwing * 0.6662F) * 1.3F * limbSwingAmount;
+            legLeft.xRot = MathHelper.cos(limbSwing * 0.6662F + (float) Math.PI) * 1.3F * limbSwingAmount;
+            armRight.xRot = MathHelper.cos(limbSwing * 0.6662F + (float) Math.PI) * 1.0F * limbSwingAmount - 0.3F;
+            armLeft.xRot = MathHelper.cos(limbSwing * 0.6662F) * 1.0F * limbSwingAmount - 0.3F;
+            body.xRot = 0.2F + Math.min(0.2F, limbSwingAmount * 0.25F); // inclinacao acentuada
         } else {
-            animateIdleListening(t);
+            // IDLE - respiracao pesada (mesma do MistGhoulin)
+            body.xRot = MathHelper.sin(t * 2.0F) * 0.03F;
+            armRight.xRot = MathHelper.sin(t * 0.9F) * 0.05F;
+            armLeft.xRot = MathHelper.sin(t * 0.9F + 1.0F) * 0.05F;
         }
 
-        // ataque de garras (spec 4.5) - usa o attackAnim padrao vanilla, ja sincronizado
+        // ATTACK - garras, ataque duplo aproximado via attackAnim (mesma do MistGhoulin)
         float attackAnim = entity.getAttackAnim(1.0F);
         if (attackAnim > 0.0F) {
-            armRight.xRot -= attackAnim * 1.4F;
-        }
-
-        // 4.7 regeneracao - contracoes sutis (efeito de pocao ja sincronizado pelo vanilla)
-        if (entity.hasEffect(net.minecraft.potion.Effects.REGENERATION)) {
-            float pulse = MathHelper.sin(t * 8.0F) * 0.04F;
-            body.y += pulse;
+            armRight.xRot -= attackAnim * 1.5F;
+            armLeft.xRot -= attackAnim * 0.8F;
         }
     }
 
     private void resetPose() {
         body.xRot = 0.0F;
         body.y = 0.0F;
-        head.xRot = 0.0F;
         head.yRot = 0.0F;
         legRight.xRot = 0.0F;
         legLeft.xRot = 0.0F;
@@ -127,51 +127,13 @@ public class AshGhoulModel extends EntityModel<AshGhoulEntity> {
         armLeft.xRot = 0.0F;
     }
 
-    /** 4.1 IDLE - respiracao leve nos bracos, sem balanco de cabeca. */
-    private void animateIdleListening(float t) {
-        armRight.xRot = MathHelper.sin(t * 0.6F) * 0.05F;
-        armLeft.xRot = MathHelper.sin(t * 0.6F + 1.0F) * 0.05F;
-    }
-
-    /**
-     * 4.2 SOUND DETECTION - transicao MUITO perceptivel: cabeça e braços
-     * congelam, corpo se eleva levemente, cabeça gira em direcao ao som.
-     */
-    private void animateDetectionPulse(float progress, float netHeadYaw) {
-        // progress vai de 1 (acabou de detectar) a 0 (fim do pulso) - inverte pra facilitar
-        float snap = 1.0F - progress;
-        body.y = -MathHelper.sin(Math.min(1.0F, snap * 2.0F) * (float) Math.PI) * 1.2F; // eleva e volta
-        head.yRot = netHeadYaw * 0.017453292F * snap; // gira rapido em direcao a fonte do som
-        armRight.xRot = 0.0F;
-        armLeft.xRot = 0.0F;
-    }
-
-    /** 4.3/4.4 WALK/RUN - baixo e irregular; corre inclinado durante perseguicao. */
-    private void animateChase(float limbSwing, float limbSwingAmount, float netHeadYaw) {
-        legRight.xRot = MathHelper.cos(limbSwing * 0.6662F) * 1.2F * limbSwingAmount;
-        legLeft.xRot = MathHelper.cos(limbSwing * 0.6662F + (float) Math.PI) * 1.2F * limbSwingAmount;
-        armRight.xRot = MathHelper.cos(limbSwing * 0.6662F + (float) Math.PI) * 0.9F * limbSwingAmount;
-        armLeft.xRot = MathHelper.cos(limbSwing * 0.6662F) * 0.9F * limbSwingAmount;
-
-        // corpo inclina mais quanto mais rapido corre (RUN vs WALK)
-        body.xRot = 0.1F + Math.min(0.25F, limbSwingAmount * 0.3F);
-        head.yRot = MathHelper.clamp(netHeadYaw * 0.017453292F, -1.2F, 1.2F);
-    }
-
-    /** 4.8 DEATH - procura, perde forca, cai de joelhos, maos tocam o chao, desaba de lado. */
+    /** DEATH - cai pra frente, bracos tentam tocar o chao (mesma do MistGhoulin). */
     private void animateDeath(int deathTime) {
-        if (deathTime < 6) {
-            // busca curta antes de cair
-            head.yRot = MathHelper.sin(deathTime * 0.8F) * 0.3F;
-        } else {
-            float progress = MathHelper.clamp((deathTime - 6) / 14.0F, 0.0F, 1.0F);
-            body.xRot = progress * 1.4F; // ajoelha/desaba
-            legRight.xRot = progress * 0.6F;
-            legLeft.xRot = progress * 0.6F;
-            armRight.xRot = -progress * 0.8F; // maos tocam o chao
-            armLeft.xRot = -progress * 0.8F;
-            body.y = progress * 4.0F;
-        }
+        float progress = MathHelper.clamp(deathTime / 10.0F, 0.0F, 1.0F);
+        body.xRot = progress * 1.6F;
+        body.y = progress * 5.0F;
+        armRight.xRot = -progress * 1.0F;
+        armLeft.xRot = -progress * 1.0F;
     }
 
     @Override

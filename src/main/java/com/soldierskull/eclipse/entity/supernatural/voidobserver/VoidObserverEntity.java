@@ -162,14 +162,22 @@ public class VoidObserverEntity extends MonsterEntity implements ISupernaturalMo
 
             // durante a preparacao do tiro, para de se mover (spec: "pequena pausa")
             if (windup <= 0) {
+                // altura sempre relativa ao alvo (baixa e estavel) - nunca deriva pra cima
+                double hoverY = target.getY() + 1.0D;
+
                 if (dist < 8.0D) {
-                    Vector3d away = mob.position().subtract(target.position()).normalize();
+                    // vetor de afastamento so no plano horizontal, pra nao empurrar o mob pra cima ao recuar
+                    Vector3d away = new Vector3d(
+                            mob.getX() - target.getX(),
+                            0.0D,
+                            mob.getZ() - target.getZ()
+                    ).normalize();
                     Vector3d dest = mob.position().add(away.scale(3));
-                    mob.getMoveControl().setWantedPosition(dest.x, dest.y + 1, dest.z, 1.0D);
+                    mob.getMoveControl().setWantedPosition(dest.x, hoverY, dest.z, 1.0D);
                 } else if (dist > 12.0D) {
-                    mob.getMoveControl().setWantedPosition(target.getX(), target.getY() + 1, target.getZ(), 1.0D);
+                    mob.getMoveControl().setWantedPosition(target.getX(), hoverY, target.getZ(), 1.0D);
                 } else {
-                    mob.getMoveControl().setWantedPosition(mob.getX(), mob.getY(), mob.getZ(), 0.0D);
+                    mob.getMoveControl().setWantedPosition(mob.getX(), hoverY, mob.getZ(), 0.0D);
                 }
             }
 
@@ -195,7 +203,7 @@ public class VoidObserverEntity extends MonsterEntity implements ISupernaturalMo
             double dx = target.getX() - mob.getX();
             double dy = target.getY(0.5) - bolt.getY();
             double dz = target.getZ() - mob.getZ();
-            bolt.shoot(dx, dy, dz, 1.2F, 4.0F);
+            bolt.shoot(dx, dy, dz, 1.2F, 1.0F);
             mob.level.addFreshEntity(bolt);
             mob.playSound(net.minecraft.util.SoundEvents.ILLUSIONER_CAST_SPELL, 1.0F, 1.0F);
         }

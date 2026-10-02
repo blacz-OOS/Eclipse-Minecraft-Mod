@@ -82,10 +82,20 @@ public class BloodWormEntity extends MonsterEntity implements ISupernaturalMob {
         this.goalSelector.addGoal(1, new EmergeAndChargeGoal(this));
     }
 
-    /** Invisivel apenas quando totalmente enterrado - durante emergir/submergir o modelo ja fica visivel (sobe/desce). */
+    /**
+     * Invisivel apenas quando totalmente enterrado - durante emergir/submergir o modelo ja fica visivel (sobe/desce).
+     *
+     * BUGFIX: tinha que ler getState() (o valor sincronizado via entityData),
+     * nao o campo local "state" - esse campo so e atualizado dentro de
+     * setState(), que roda exclusivamente no servidor (dentro da Goal). No
+     * cliente o campo local ficava para sempre travado em STATE_BURIED,
+     * entao isInvisible() sempre retornava true e o modelo nunca era
+     * desenhado, mesmo com a entidade emergida e atacando normalmente no
+     * servidor.
+     */
     @Override
     public boolean isInvisible() {
-        return state == STATE_BURIED || super.isInvisible();
+        return getState() == STATE_BURIED || super.isInvisible();
     }
 
     @Override
